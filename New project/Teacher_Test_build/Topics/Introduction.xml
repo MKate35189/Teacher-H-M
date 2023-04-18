@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="morozova_e_s" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Введение</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Введение</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:justify;"><text styleclass="Normal" translate="true">Данный документ создается в качестве обучающего материала</text></para>
+    <para styleclass="Normal" style="text-align:justify;"><text styleclass="Normal" style="font-family:Verdana; font-size:18pt;" translate="true">Нужно проверить разные шрифты</text></para>
+    <para styleclass="Normal" style="text-align:justify;"><tab /><text styleclass="Normal" style="font-family:Verdana; font-size:18pt;" translate="true">Разную разность:</text></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; font-family:Symbol; font-size:12pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify;"><text styleclass="Normal" translate="true">Всякую разную;</text></li>
+      <li styleclass="Normal" style="text-align:justify;"><text styleclass="Normal" translate="true">Разную разность.</text></li>
+    </list>
+    <para styleclass="Normal" style="text-align:justify; margin-top:15px;"><text styleclass="Normal" translate="true">Просто проверять</text></para>
+    <para styleclass="Normal" style="text-align:justify;"><text styleclass="Normal" translate="true">И экспериментировать. Эксперименты с документами дело такое, туда-сюда, и документ разнообразный, но ужасно некрасивый и максимально бесполезный. Чтобы весело было экспериментировать нужно писать всякую ерись не боясь насмешек, ведь ты просто экспериментируешь и учишься.</text></para>
+    <para styleclass="Normal" style="text-align:justify;"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="adult-swim.jpg" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Image Caption" translate="true">Рисунок 1 - Тоже эксперимент</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:justify; text-indent:54px;"><var styleclass="Normal">&lt;%VERSION%&gt;</var><text styleclass="Normal" translate="true"> - что-то интересное.</text></para>
+    <para styleclass="Normal" style="text-align:justify; text-indent:54px;"></para>
+    <para styleclass="Normal"><line style="height:4px; color:#008000;" /></para>
+  </body>
+</topic>

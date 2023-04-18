@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="morozova_e_s" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Подзаголовок главы 1</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Подзаголовок главы 1</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:justify; text-indent:57px;"><text styleclass="Normal" translate="true">Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. </text></para>
+    <para styleclass="Normal" style="text-align:justify; text-indent:57px; margin-bottom:8px;"><text styleclass="Normal" translate="true">Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. </text></para>
+    <para styleclass="Normal" style="text-align:justify; text-indent:379px; margin-bottom:8px;"><text styleclass="Normal" translate="true">Таблица 1 - Название таблицы 1</text></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:57px;"><table styleclass="Default" rowcount="6" colcount="4">
+      <tr style="vertical-align:top">
+        <td style="width:25px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">№</text></para>
+        </td>
+        <td style="width:341px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">Текст</text></para>
+        </td>
+        <td style="width:263px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">Название</text></para>
+        </td>
+        <td style="width:187px;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-weight:bold;" translate="true">Тема</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:25px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">1</text></para>
+        </td>
+        <td style="vertical-align:top; width:341px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Текст текст текст текст текст текст текст текст текст текст текст текст текст текст</text></para>
+        </td>
+        <td style="width:263px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Название название название название название название</text></para>
+        </td>
+        <td style="width:187px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Тема тема &#160;тема тема тема тема тема тема</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:25px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2</text></para>
+        </td>
+        <td style="width:341px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Текст текст текст текст текст текст текст текст текст</text></para>
+        </td>
+        <td style="width:263px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> название название</text></para>
+        </td>
+        <td style="width:187px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> тема тема тема</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:25px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">3</text></para>
+        </td>
+        <td style="width:341px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> текст текст текст текст текст текст</text></para>
+        </td>
+        <td style="width:263px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> название название название название название название</text></para>
+        </td>
+        <td style="width:187px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> тема тема</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:25px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">4</text></para>
+        </td>
+        <td style="width:341px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> текст текст текст текст</text></para>
+        </td>
+        <td style="width:263px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> название название название</text></para>
+        </td>
+        <td style="width:187px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> тема тема тема тема тема тема тема тема тема</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:25px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">5</text></para>
+        </td>
+        <td style="width:341px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> текст</text></para>
+        </td>
+        <td style="width:263px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> название название название название название</text></para>
+        </td>
+        <td style="width:187px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true"> тема тема тема тема тема тема тема</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:justify; text-indent:57px; margin-top:8px;"><text styleclass="Normal" translate="true">Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. Тестовый текст. </text></para>
+    <para styleclass="Normal" style="text-align:justify; text-indent:57px; margin-top:8px;"></para>
+    <para styleclass="Normal"><line style="height:4px; color:#008000;" /></para>
+  </body>
+</topic>
