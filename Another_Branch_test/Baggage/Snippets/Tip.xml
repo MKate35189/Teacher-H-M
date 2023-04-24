@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
-<topic template="Default" lasteditedby="nechaeva_a_l" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
-  <title translate="true">Tip</title>
-  <body>
-    <para styleclass="Normal"><image src="Tip-16px.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" style="font-weight:bold;" translate="true"> Совет. </text></para>
-  </body>
-</topic>
