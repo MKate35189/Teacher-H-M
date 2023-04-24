@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="morozova_e_s" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Блокировка и разблокировка документа</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Блокировка и разблокировка документа</text></para>
+    </header>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В </text><var styleclass="Body Text">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Body Text" translate="true"> возможна явная и неявная блокировка документа:</text></para>
+    <list id="7" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Явная блокировка</text><text styleclass="List" translate="true"> – блокировка документа по команде пользователя, используется для защиты документа от изменений другими пользователями. Автоматическое снятие такой блокировки не предусмотрено, держателю блокировки необходимо выполнить команду </text><text styleclass="List" style="font-weight:bold;" translate="true">Снять блокировку</text><text styleclass="List" translate="true"> вручную. Система не может продвинуть по жизненному циклу документ, заблокированный пользователем явно. Поэтому мы не рекомендуем устанавливать явную блокировку на продолжительное время.</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Неявная блокировка</text><text styleclass="List" translate="true"> – блокировка документа средствами системы, без участия пользователя. Неявная блокировка, как правило, занимает непродолжительное время (секунды или миллисекунды), необходимое для сохранения изменений.</text></li>
+    </list>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В обоих случаях заблокированный документ помечается меткой </text><image src="Lock_Lilac.svg" scale="100.00%" styleclass="Body Text"></image><text styleclass="Body Text" translate="true">. При наведении курсора мыши на метку появляется всплывающая подсказка &quot;Заблокирован вами&quot; или &quot;Заблокирован: %имя_пользователя%&quot;.</text></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Правила блокировки и разблокировки документа</text></para>
+    <list id="8" type="ul" listtype="bullet" formatstring="§" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Невозможно заблокировать документ, который уже заблокировал другой пользователь.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Для блокировки документа пользователь должен обладать правом доступа как минимум &quot;Создание версий&quot; (Version) к этому документу.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Возможно заблокировать только последнюю версию документа.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Явная блокировка снимается </text><text styleclass="Normal" style="vertical-align:baseline;" translate="true">держателем блокировки</text><text styleclass="List" translate="true">. Время удержания блокировки не ограничено.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">При сохранении изменений в </text><text styleclass="List" style="font-style:italic;" translate="true">атрибутах</text><text styleclass="List" translate="true"> документа блокировка не обязательна. При сохранении изменений в </text><text styleclass="List" style="font-style:italic;" translate="true">файле</text><text styleclass="List" translate="true"> обязательна явная или неявная блокировка.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Если до начала редактирования документ был заблокирован пользователем, то после сохранения изменений блокировка остаётся.</text></li>
+    </list>
+    <list id="9" type="ul" listtype="bullet" formatstring="§" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Снять блокировку может держатель блокировки, а также администратор в Консоли администрирования.</text></li>
+    </list>
+  </body>
+</topic>

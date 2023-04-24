@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude" defaulttopic="Documents">
+  <topicref type="topic" id="435175888848435" build="ALL" modified="2019-09-18T13:05:53.360Z" icon="1" href="Intro">
+    <caption translate="true">Знакомство с &lt;%PRODUCTNAME%&gt;</caption>
+    <topicref type="topic" id="435155418800625" build="ALL" modified="2020-04-08T19:47:24.734Z" icon="11" href="About_Guide">
+      <caption translate="true">О руководстве пользователя Riverdoc</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="435154288946174" build="ALL" modified="2019-09-18T10:37:55.859Z" icon="0" href="Interface">
+    <caption translate="true">Интерфейс &lt;%PRODUCTNAME%&gt;</caption>
+    <topicref type="topic" id="437078861591132" build="ALL" modified="2020-04-08T23:07:00.800Z" icon="1" href="Task_Section">
+      <caption translate="true">Интерфейс раздела &quot;Задачи&quot;</caption>
+      <topicref type="topic" id="435184527158857" build="ALL" modified="2019-09-20T23:48:43.312Z" icon="11" href="Color_Labels">
+        <caption translate="true">Маркировка и формат записи задач</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="435153399679448" build="ALL" modified="2020-04-08T23:07:12.274Z" icon="11" href="Documents_Section">
+      <caption translate="true">Интерфейс раздела &quot;Документы&quot;</caption>
+    </topicref>
+    <topicref type="topic" id="435154670365322" build="EBOOK" modified="2020-04-04T01:26:00.536Z" icon="11" href="Interface_Custamization">
+      <caption translate="true">Настройка интерфейса</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="435156623923280" build="ALL" modified="2023-04-21T14:48:14.038Z" icon="1" href="Documents">
+    <caption translate="true">Раздел &quot;Документы&quot;</caption>
+    <topicref type="topic" id="439166681098879" build="ALL" modified="2020-05-07T21:57:41.436Z" icon="11" href="Recent">
+      <caption translate="true">Недавние</caption>
+    </topicref>
+    <topicref type="topic" id="435158197223011" build="ALL" modified="2020-05-07T21:57:52.796Z" icon="11" href="Favorites">
+      <caption translate="true">Избранное</caption>
+    </topicref>
+    <topicref type="topic" id="439168604031154" build="ALL" modified="2020-05-07T21:58:04.117Z" icon="11" href="Node_Documents">
+      <caption translate="true">Документы</caption>
+    </topicref>
+    <topicref type="topic" id="439077514222263" build="ALL" modified="2020-03-17T15:25:37.531Z" icon="1" href="Doc_Creating">
+      <caption translate="true">Создание документов</caption>
+      <topicref type="topic" id="439695629768876" build="ALL" modified="2020-05-18T16:02:43.815Z" icon="11" href="DocCreating_Rules">
+        <caption translate="true">Правила и способы создания документов</caption>
+      </topicref>
+      <topicref type="topic" id="439697648613598" build="ALL" modified="2020-05-18T16:06:48.627Z" icon="11" href="HowTo_Create_QuickStart">
+        <caption translate="true">Основные шаги при создании документа</caption>
+      </topicref>
+      <topicref type="topic" id="439657869346450" build="ALL" modified="2020-05-18T15:58:44.745Z" icon="17" href="SingleCreating">
+        <caption translate="true">Инструкция. Как создать документ</caption>
+      </topicref>
+      <topicref type="topic" id="439657329419962" build="ALL" modified="2020-05-18T15:58:51.467Z" icon="17" href="MultiCreating_OneKind">
+        <caption translate="true">Инструкция. Как создать документы одного вида</caption>
+      </topicref>
+      <topicref type="topic" id="439656856171506" build="ALL" modified="2020-06-30T14:43:14.288Z" icon="17" href="MultiCreating_SomeKinds">
+        <caption translate="true">Инструкция. Как создать документы разных видов</caption>
+      </topicref>
+      <topicref type="topic" id="440124907774527" build="ALL" modified="2020-07-02T16:08:24.676Z" icon="11" href="Doc_Templates">
+        <caption translate="true">Шаблоны документов</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="437616682534834" build="ALL" modified="2020-04-15T12:20:03.380Z" icon="1" href="Doc_Card">
+      <caption translate="true">Карточка документа</caption>
+      <topicref type="topic" id="439583211139359" build="ALL" modified="2020-05-07T21:14:32.034Z" icon="11" href="Toppings">
+        <caption translate="true">Дополнительные файлы и связанные документы</caption>
+      </topicref>
+      <topicref type="topic" id="437334938564625" build="ALL" modified="2019-09-25T15:56:39.841Z" icon="11" href="Preview">
+        <caption translate="true">Предварительный просмотр документа</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="435216269067867" build="ALL" modified="2020-05-22T00:19:07.122Z" icon="11" href="Edit_Doc">
+      <caption translate="true">Редактирование документа</caption>
+    </topicref>
+    <topicref type="topic" id="437348251342875" build="ALL" modified="2020-01-30T13:55:21.521Z" icon="11" href="Lock_Unlock">
+      <caption translate="true">Блокировка и разблокировка документа</caption>
+    </topicref>
+    <topicref type="topic" id="438604865441529" build="ALL" modified="2020-04-13T19:11:21.605Z" icon="11" href="Folders">
+      <caption translate="true">Работа с папками</caption>
+    </topicref>
+    <topicref type="topic" id="437346975610869" build="ALL" modified="2020-04-03T22:03:30.418Z" icon="11" href="Doc_Removing">
+      <caption translate="true">Удаление объектов</caption>
+    </topicref>
+    <topicref type="topic" id="435155923660076" build="ALL" modified="2019-10-22T18:05:41.269Z" icon="11" href="Access_Rights">
+      <caption translate="true">Права доступа к документам и папкам</caption>
+    </topicref>
+    <topicref type="topic" id="438187953820697" build="ALL" modified="2020-05-25T17:48:07.527Z" icon="11" href="Linking">
+      <caption translate="true">Привязка/отвязка документов и папок </caption>
+    </topicref>
+    <topicref type="topic" id="439646842940123" build="ALL" modified="2020-06-08T15:04:13.909Z" icon="11" href="Moving">
+      <caption translate="true">Перемещение документов и папок</caption>
+    </topicref>
+    <topicref type="topic" id="437376307285203" build="ALL" modified="2020-04-19T01:07:46.214Z" icon="11" href="Doc_History">
+      <caption translate="true">История движения документа</caption>
+    </topicref>
+    <topicref type="topic" id="437186838970142" build="ALL" modified="2020-04-07T12:56:04.457Z" icon="11" href="Doc_Signing">
+      <caption translate="true">Подписание документов</caption>
+      <topicref type="topic" id="437562461776686" build="HXS" modified="2020-04-07T12:55:56.660Z" icon="11" href="Signature_by_Proxy">
+        <caption translate="true">Подпись по доверенности</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="435156863865072" build="ALL" modified="2019-10-23T11:00:29.417Z" icon="11" href="Doc_Versions">
+      <caption translate="true">Версии документа</caption>
+    </topicref>
+    <topicref type="topic" id="438896546863238" build="ALL" modified="2020-04-16T15:05:27.772Z" icon="11" href="Multiselect">
+      <caption translate="true">Массовая работа с документами</caption>
+    </topicref>
+    <topicref type="topic" id="435285358120261" build="ALL" modified="2020-05-22T09:01:03.567Z" icon="11" href="Search_Docs">
+      <caption translate="true">Поиск и фильтрация документов</caption>
+    </topicref>
+    <topicref type="topic" id="439916565265905" build="ALL" modified="2020-06-09T21:42:34.705Z" icon="11" href="Download">
+      <caption translate="true">Скачивание файлов и папок на компьютер</caption>
+    </topicref>
+    <topicref type="topic" id="437635380247944" build="ALL" modified="2019-11-07T18:42:26.660Z" icon="11" href="Doc_Sorting">
+      <caption translate="true">Сортировка документов</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="435155072155357" build="ALL" modified="2020-06-04T21:38:00.216Z" icon="1" href="Tasks">
+    <caption translate="true">Раздел &quot;Задачи&quot;</caption>
+    <topicref type="topic" id="437817534225072" build="ALL" modified="2020-06-02T18:07:17.473Z" icon="11" href="Task_Card">
+      <caption translate="true">Карточка задачи</caption>
+    </topicref>
+    <topicref type="topic" id="435174450452838" build="ALL" modified="2020-06-03T13:10:40.003Z" icon="1" href="Business_Tasks">
+      <caption translate="true">Задачи по процессам</caption>
+      <topicref type="topic" id="435212383211355" build="ALL" modified="2020-06-03T13:10:47.209Z" icon="11" href="Starting_BP">
+        <caption translate="true">Запуск процесса</caption>
+      </topicref>
+      <topicref type="topic" id="439428924758287" build="ALL" modified="2020-06-04T18:25:47.802Z" icon="11" href="Filling_ProcessParams">
+        <caption translate="true">Заполнение параметров процесса</caption>
+      </topicref>
+      <topicref type="topic" id="43914370043096" build="ALL" modified="2020-06-03T13:10:58.278Z" icon="11" href="Process_History">
+        <caption translate="true">История процесса</caption>
+      </topicref>
+      <topicref type="topic" id="435174914632951" build="EBOOK" modified="2019-09-23T15:33:25.432Z" icon="11" href="Group_Task">
+        <caption translate="true">Групповая задача бизнес-процесса</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="437264666052992" build="ALL" modified="2020-06-03T13:11:13.915Z" icon="1" href="Errands">
+      <caption translate="true">Задачи по поручениям</caption>
+      <topicref type="topic" id="435158275392086" build="ALL" modified="2020-06-03T13:11:28.803Z" icon="11" href="Errand_Start">
+        <caption translate="true">Запуск поручения</caption>
+      </topicref>
+      <topicref type="topic" id="439855956255831" build="ALL" modified="2020-06-04T23:12:35.194Z" icon="11" href="Filling_ErrandCard">
+        <caption translate="true">Заполнение параметров поручения</caption>
+      </topicref>
+      <topicref type="topic" id="437355534058816" build="ALL" modified="2020-06-03T13:11:37.196Z" icon="11" href="Errand_Types">
+        <caption translate="true">Виды поручений</caption>
+      </topicref>
+      <topicref type="topic" id="435155854024325" build="EBOOK" modified="2019-09-23T15:31:15.068Z" icon="11" href="Members_of_Errands">
+        <caption translate="true">Участники поручений</caption>
+      </topicref>
+      <topicref type="topic" id="435158606831334" build="ALL" modified="2020-06-03T13:11:43.486Z" icon="11" href="Errand_History">
+        <caption translate="true">История поручения</caption>
+      </topicref>
+      <topicref type="topic" id="439974088123031" build="HXS" modified="2020-06-15T11:35:27.476Z" icon="0" href="Errands_Control">
+        <caption translate="true">Контроль исполнения поручений</caption>
+      </topicref>
+      <topicref type="topic" id="435158125629887" build="EBOOK" modified="2019-09-23T15:31:21.065Z" icon="11" href="Create_SubErrand">
+        <caption translate="true">Создание подпоручений</caption>
+      </topicref>
+      <topicref type="topic" id="435158029653715" build="EBOOK" modified="2019-09-23T15:31:33.004Z" icon="11" href="Cancel_Errand">
+        <caption translate="true">Отмена поручения</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="435176159375656" build="ALL" modified="2020-06-03T12:41:35.289Z" icon="11" href="Task_Delegation">
+      <caption translate="true">Делегирование задач</caption>
+    </topicref>
+    <topicref type="topic" id="43514575533686" build="PDF" modified="2020-05-21T15:05:49.803Z" icon="1" href="Filtering">
+      <caption translate="true">Фильтрация задач</caption>
+      <topicref type="topic" id="437356304905741" build="PDF" modified="2020-05-21T15:05:57.011Z" icon="11" href="System_Filtering">
+        <caption translate="true">Системная фильтрация</caption>
+      </topicref>
+      <topicref type="topic" id="437355556405966" build="PDF" modified="2020-05-21T15:06:02.730Z" icon="11" href="User_Filtering">
+        <caption translate="true">Пользовательская фильтрация</caption>
+      </topicref>
+      <topicref type="topic" id="437357151799092" build="PDF" modified="2020-05-21T15:06:10.586Z" icon="11" href="Importance_Label">
+        <caption translate="true">Метки важности</caption>
+      </topicref>
+      <topicref type="topic" id="437354158406216" build="PDF" modified="2020-05-21T15:06:20.011Z" icon="11" href="Favorite_Tasks">
+        <caption translate="true">Категория &quot;Избранные&quot;</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="435382556901211" build="PDF" modified="2020-05-21T15:06:27.663Z" icon="11" href="Sorting">
+      <caption translate="true">Сортировка задач</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="435158082333413" build="ALL" modified="2023-04-21T14:48:41.361Z" icon="1" href="Employees">
+    <caption translate="true">Сотрудники</caption>
+    <topicref type="topic" id="43515256367671" build="ALL" modified="2019-04-26T19:00:11.562Z" icon="11" href="Employee_Handbook">
+      <caption translate="true">Справочник сотрудников</caption>
+    </topicref>
+    <topicref type="topic" id="435155949334197" build="ALL" modified="2019-04-26T19:00:31.118Z" icon="11" href="Adding_Employees">
+      <caption translate="true">Добавление сотрудников</caption>
+    </topicref>
+    <topicref type="topic" id="435157225937484" build="ALL" modified="2019-04-26T19:00:57.165Z" icon="11" href="Creating_Employee_Groups">
+      <caption translate="true">Создание групп сотрудников</caption>
+    </topicref>
+    <topicref type="topic" id="435157193777702" build="ALL" modified="2019-04-26T19:01:49.285Z" icon="11" href="Search_for_colleagues">
+      <caption translate="true">Поиск сотрудников</caption>
+    </topicref>
+    <topicref type="topic" id="435155988436926" build="ALL" modified="2019-04-26T19:02:16.211Z" icon="11" href="Employee_Groups">
+      <caption translate="true">Группы сотрудников</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="438160324929363" build="ALL" modified="2020-04-07T02:31:56.742Z" icon="1" href="Profile">
+    <caption translate="true">Профиль пользователя</caption>
+    <topicref type="topic" id="435157233824301" build="ALL" modified="2019-04-26T19:02:32.214Z" icon="11" href="Substitution">
+      <caption translate="true">Замещение </caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="435383610721107" build="ALL" modified="2023-04-21T14:48:50.561Z" icon="1" href="General_Settings">
+    <caption translate="true">Общие настройки</caption>
+  </topicref>
+  <topicref type="topic" id="435155147901371" build="ALL" modified="2023-04-21T14:48:55.557Z" icon="0" href="Notifications">
+    <caption translate="true">Уведомления</caption>
+    <topicref type="topic" id="435155231658695" build="ALL" modified="2019-04-26T19:04:02.648Z" icon="11" href="Notification_Settings">
+      <caption translate="true">Настройка уведомлений</caption>
+    </topicref>
+    <topicref type="topic" id="435154716754937" build="ALL" modified="2019-04-26T19:03:14.945Z" icon="11" href="Notifications_Types">
+      <caption translate="true">Виды уведомлений</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="437356421504106" build="ALL" modified="2020-04-07T01:51:49.255Z" icon="21" href="FAQ">
+    <caption translate="true">Частые вопросы</caption>
+  </topicref>
+  <topicref type="topic" id="435157628322761" build="ALL" modified="2019-02-22T10:17:36.414Z" icon="11" href="Glossary">
+    <caption translate="true">Глоссарий</caption>
+  </topicref>
+  <topicref type="topic" id="439076365093110" build="ALL" modified="2023-04-21T14:49:01.676Z" icon="11" href="Doc_Kinds">
+    <caption translate="true">Виды документов</caption>
+  </topicref>
+  <topicref type="topic" id="439074283071862" build="ALL" modified="2023-04-21T14:49:07.121Z" icon="11" href="Fields_DocCard">
+    <caption translate="true">Заполнение полей в карточке документа</caption>
+  </topicref>
+  <topicref type="topic" id="437403503202795" build="ALL" modified="2023-04-21T14:49:11.269Z" icon="27" href="Cuted">
+    <caption translate="true">Cuted</caption>
+  </topicref>
+</map>

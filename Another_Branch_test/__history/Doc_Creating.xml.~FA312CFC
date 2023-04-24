@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="morozova_e_s" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Создание документов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Создание документов в </text><var styleclass="Heading1">&lt;%PRODUCTNAME%&gt;</var></para>
+    </header>
+    <para styleclass="Body Text"><link displaytype="text" defaultstyle="true" type="topiclink" href="SingleCreating" styleclass="Body Text" style="font-size:12pt;" translate="true">Как создать документ. Пошаговая инструкция</link></para>
+    <para styleclass="Body Text"><link displaytype="text" defaultstyle="true" type="topiclink" href="MultiCreating_OneKind" styleclass="Body Text" style="font-size:12pt;" translate="true">Как создать несколько документов одного вида. Пошаговая инструкция</link></para>
+    <para styleclass="Body Text"><link displaytype="text" defaultstyle="true" type="topiclink" href="MultiCreating_SomeKinds" styleclass="Body Text" style="font-size:12pt;" translate="true">Как создать несколько документов разных видов. Пошаговая инструкция</link></para>
+    <para styleclass="List"></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Основные правила создания документов в </text><var styleclass="Heading2">&lt;%PRODUCTNAME%&gt;</var></para>
+    <list id="6" type="ul" listtype="bullet" formatstring="&#167;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Создать документ можно из любого раздела системы.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">В корне раздела </text><text styleclass="List" style="font-weight:bold;" translate="true">Документы</text><text styleclass="List" translate="true"> объекты может создавать только администратор из Консоли администрирования.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">На папку, в которой планируете создать объект, должно быть </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Access_Rights" styleclass="List" translate="true">право доступа</link><text styleclass="List" translate="true"> как минимум &quot;Перезапись версий&quot; (Write).</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">При создании документа в </text><var styleclass="List">&lt;%PRODUCTNAME%&gt;</var><text styleclass="List" translate="true"> необходимо указать вид документа. Изменить вид документа можно только до первого сохранения карточки документа. </text></li>
+      <li styleclass="Normal" style="text-align:left; margin-top:0px; margin-bottom:0px; margin-left:0px; line-height:1.15; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="" anchor="destinationFolder" styleclass="Normal" translate="true">Папка назначения</link><text styleclass="Normal" translate="true"> может быть указана системой автоматически или пользователем вручную.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Если в создаваемом документе есть файл, то название файла используется в качестве названия нового документа. Название можно изменить в любой момент.</text></li>
+    </list>
+    <list id="7" type="ul" listtype="bullet" formatstring="&#167;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">При создании объекта в папке, которая связана с другими папками, объект автоматически будет создан во всех связанных папках (подробнее см. </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Linking" anchor="recursionLinking" styleclass="List" translate="true">пример</link><text styleclass="List" translate="true">).</text></li>
+    </list>
+    <list id="6" type="ul" listtype="bullet" formatstring="&#167;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><var styleclass="List">&lt;%PRODUCTNAME%&gt;</var><text styleclass="List" translate="true"> позволяет загружать файлы любых форматов, ограничение размера загружаемого файла устанавливает администратор системы.</text></li>
+    </list>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Способы создания документов</text></para>
+    <para styleclass="List" style="margin-left:7px;"><table styleclass="Default" rowcount="4" colcount="2">
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Способ создания</text></para>
+        </td>
+        <td style="width:742px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Краткое описание способа</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><image src="Button_Download.svg" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="width:742px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Загрузить файлы с компьютера. </text><br/><text styleclass="Body Text" translate="true">На основании этих файлов будут созданы документы </text><link displaytype="text" defaultstyle="true" type="topiclink" href="MultiCreating_OneKind" styleclass="Body Text" translate="true">одного</link><text styleclass="Body Text" translate="true"> или </text><link displaytype="text" defaultstyle="true" type="topiclink" href="MultiCreating_SomeKinds" styleclass="Body Text" translate="true">разных</link><text styleclass="Body Text" translate="true"> видов.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><image src="Button_Create.svg" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="width:742px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Создать </text><link displaytype="text" defaultstyle="true" type="topiclink" href="SingleCreating" styleclass="Body Text" translate="true">документ</link><text styleclass="Body Text" translate="true"> или </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Folders" styleclass="Body Text" translate="true">папку</link><text styleclass="Body Text" translate="true">.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Перетаскивание (drag-and-drop)</text></para>
+          <para styleclass="Body Text"></para>
+        </td>
+        <td style="width:742px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Создать документы с помощью перетаскивания файлов с компьютера.</text><br/><text styleclass="Body Text" translate="true">При перетаскивании документы можно создать в любой видимой папке в списке или в дереве документов.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading2"></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Основные шаги при создании документов</text></para>
+    <para styleclass="Body Text"><link displaytype="text" defaultstyle="true" type="topiclink" href="" anchor="docKind" styleclass="Body Text" translate="true">Шаг 1. Выбрать вид документа (обязательно)</link></para>
+    <para styleclass="Body Text"><link displaytype="text" defaultstyle="true" type="topiclink" href="" anchor="attachFile" styleclass="Body Text" translate="true">Шаг 2. Прикрепить фай (необязательно)</link></para>
+    <para styleclass="Body Text"><link displaytype="text" defaultstyle="true" type="topiclink" href="" anchor="destinationFolder" styleclass="Body Text" translate="true">Шаг 3. Проверить или указать папку назначения (обязательно)</link></para>
+    <para styleclass="Body Text"><link displaytype="text" defaultstyle="true" type="topiclink" href="" anchor="attrs" styleclass="Body Text" translate="true">Шаг 4. Заполнить поля карточки (для некоторых видов документа это необязательно)</link></para>
+    <para styleclass="Normal"><line style="height:1px; color:#0000ff;" /></para>
+    <para styleclass="Heading2"><anchor id="docKind" styleclass="Heading2"></anchor><text styleclass="Heading2" translate="true">Шаг 1. Выбрать вид документа (обязательно)</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Вид документа</text><text styleclass="Body Text" translate="true"> – параметр, по которому документы классифицируются в системе (например, &quot;Заявление на отпуск&quot; или &quot;Служебная записка&quot;). Справочник видов документов настраивает администратор системы.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">На первом этапе создания документа открывается окно </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Создание документа</text><text styleclass="Body Text" translate="true">, в котором содержатся все доступные виды документов (справочник документов).</text></para>
+    <para styleclass="Body Text"><toggle type="picture" print-expanded="true" help-expanded="false" src-collapsed="DocKind_Catalog.png" src-expanded="DocKind_Catalog.png" scale="70.00%" width="544" height="216" styleclass="Image Caption"><caption translate="true"><![CDATA[Справочник видов документов]]></caption><title translate="true">Нажмите,чтобы увеличить</title></toggle></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">По умолчанию записи в справочнике выводятся списком, в котором виды следуют в алфавитном порядке от А к Я. Также все записи в справочнике можно вывести в виде дерева (&quot;иерархией&quot;). Переключение между режимами выполняется с помощью кнопок </text><image src="List_Hierarchy.svg" scale="100.00%" styleclass="Body Text"></image><text styleclass="Body Text" translate="true">. </text></para>
+    <para styleclass="Body Text"><snippet src="file::.\Baggage\Snippets\Note.xml" inline="true"/><text styleclass="Body Text" translate="true">Структура дерева будет соответствовать структуре видов документов, заведённой администратором в Консоли администрирования. </text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Чтобы выбрать вид документа, наведите курсор мыши на нужный вид документа, далее нажмите кнопку </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Выбрать</text><text styleclass="Body Text" translate="true">. </text></para>
+    <para styleclass="Body Text"><toggle type="picture" print-expanded="true" help-expanded="false" src-collapsed="DocKind_Choosing.png" src-expanded="DocKind_Choosing.png" scale="70.00%" width="540" height="112" styleclass="Image Caption"><caption translate="true"><![CDATA[Выбор вида документа]]></caption><title translate="true">Нажмите,чтобы увеличить</title></toggle></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Откроется форма для заполнения карточки документа (окно </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Создание документа</text><text styleclass="Body Text" translate="true">).</text></para>
+    <para styleclass="Heading2"><anchor id="attachFile" styleclass="Heading2"></anchor><text styleclass="Heading2" translate="true">Шаг 2. Прикрепить файл (необязательно)</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Если пользователь создаёт документ с помощью перетаскивания файла, тогда файл автоматически добавится в карточку документа.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Если пользователь создаёт документ с помощью кнопок, тогда файл можно прикрепить в области добавления файла:</text></para>
+    <para styleclass="List"><image src="File_Upload_Area.svg" scale="80.00%" width="538" height="45" styleclass="Image Caption"><caption translate="true"><![CDATA[Область добавления файла]]></caption></image></para>
+    <para styleclass="List"><image src="File_Upload_Area(mouse).svg" scale="80.00%" width="538" height="45" styleclass="Image Caption"><caption translate="true"><![CDATA[Область добавления файла при наведении курсора]]></caption></image></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В обоих случаях файл можно удалить с помощью </text><image src="Close-10px.svg" scale="80.00%" width="13" height="13" styleclass="Body Text"></image><text styleclass="Body Text" translate="true"> и добавить другой.</text></para>
+    <para styleclass="Heading2"><anchor id="destinationFolder" styleclass="Heading3"></anchor><text styleclass="Heading2" translate="true">Шаг 3. Проверить или указать папку назначения (обязательно)</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Папка назначения может быть указана системой автоматически или пользователем вручную. Выбор и назначение папки зависит от нескольких факторов:</text></para>
+    <list id="8" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">из какого раздела пользователь создаёт документ;</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">настроена ли </text><text styleclass="List" style="font-style:italic;" translate="true">папка по умолчанию*</text><text styleclass="List" translate="true"> для выбранного вида документа;</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">прав доступа пользователя на папку назначения.</text></li>
+    </list>
+    <para styleclass="Body Text"><table rowcount="5" colcount="3" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:bottom; width:108px; background-color:#9fc5e8;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Раздел</text></para>
+        </td>
+        <td style="vertical-align:bottom; width:163px; background-color:#9fc5e8;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Подраздел</text></para>
+        </td>
+        <td style="vertical-align:bottom; width:705px; background-color:#9fc5e8;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Папка назначения</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:108px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Документы</text></para>
+        </td>
+        <td style="vertical-align:bottom; width:163px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Документы</text></para>
+        </td>
+        <td style="vertical-align:bottom; width:705px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Текущая выбранная папка</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:bottom; width:163px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Недавние</text></para>
+        </td>
+        <td rowspan="3" style="vertical-align:bottom; width:705px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Зависит от выбранного вида документа и прав доступа пользователя:</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">- если администратор назначил папку по умолчанию для выбранного вида документов и у пользователя есть права как минимум &quot;Создание версий&quot; (Version) на эту папку, то в качестве папки назначения система укажет папку по умолчанию;</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">- если администратор не назначил папку по умолчанию для выбранного вида документов, или у пользователя не хватает прав, тогда пользователю необходимо указать папку назначения.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:bottom; width:163px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Избранное</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:108px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Задачи</text></para>
+        </td>
+        <td style="vertical-align:middle; width:163px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">—</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:left; margin-top:0px; margin-bottom:0px; margin-left:0px; line-height:1.15; tabstops:none;"></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">*</text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Папка по умолчанию</text><text styleclass="Body Text" translate="true"> – папка, в которой создаются и хранятся документы определённого вида (например, документы вида &quot;Счёт&quot; создаются и хранятся в директории </text><text styleclass="T_Code" style="color:#000080;" translate="true">/Бухгалтерия/Счета/</text><text styleclass="Body Text" translate="true">). Папку по умолчанию назначает администратор.</text></para>
+    <para styleclass="Heading2"><anchor id="attrs" styleclass="Normal" style="font-weight:bold;"></anchor><text styleclass="Heading2" translate="true">Шаг 4. Заполнить поля карточки (для некоторых видов документов это необязательно)</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Набор полей в карточке документа зависит от выбранного вида документа. Администратор системы настраивает поля для каждого вида документов, для всех видов обязательно будут поля: </text></para>
+    <list id="9" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Имя документа</text><text styleclass="List" style="color:#ff0000;" translate="true">*</text><text styleclass="List" translate="true"> – название документа. </text><br/><text styleclass="List" translate="true">Правила именования объектов в </text><var styleclass="List">&lt;%PRODUCTNAME%&gt;</var><text styleclass="List" translate="true">:</text></li>
+    </list>
+    <list id="10" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <list id="10" level="1" type="ul" listtype="bullet" formatstring="&#111;" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:&apos;Courier New&apos;; font-size:11pt; color:#000000;">
+        <li styleclass="List"><text styleclass="List" translate="true">Ограничение длины имени: 255 символов. </text></li>
+        <li styleclass="List"><text styleclass="List" translate="true">Имя документа не может быть пустым. </text></li>
+        <li styleclass="List"><text styleclass="List" translate="true">Если пользователь не ввёл название документа, система автоматически сгенерирует название в соответствии с выбранным видом документа.</text></li>
+      </list>
+    </list>
+    <list id="11" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Описание</text><text styleclass="List" translate="true"> – текстовый комментарий к документу, с помощью которого можно понять суть документа, не открывая его.</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Вид документа</text><text styleclass="List" style="color:#ff0000;" translate="true">*</text><text styleclass="List" translate="true"> – один из видов документов, заведённых в справочнике документов </text><var styleclass="List">&lt;%PRODUCTNAME%&gt;</var><text styleclass="List" translate="true">.</text></li>
+    </list>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Назначение остальных настраиваемых полей должно быть понятно из названия или предзаполненного текста-подсказки. Если назначение какого-либо поля всё же непонятно, обратитесь к администратору системы.</text></para>
+    <para styleclass="SeeAlso"><text styleclass="SeeAlso" translate="true">См. также:</text></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="FAQ" anchor="docKind" styleclass="SeeAlso Body" translate="true">Как изменить вид документа</link></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="Folders" styleclass="SeeAlso Body" translate="true">Как создать папку</link></para>
+  </body>
+</topic>

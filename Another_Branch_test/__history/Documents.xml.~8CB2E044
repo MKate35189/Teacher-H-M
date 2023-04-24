@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="Nechaeva_A_L" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Раздел &quot;Документы&quot;</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Раздел &quot;Документы&quot;</text></para>
+    </header>
+    <para styleclass="Normal"><image src="info-16px.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" translate="true">Содержимое раздела может отличаться у разных пользователей, что связано с правами доступа к документам.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В разделе </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Документы</text><text styleclass="Normal" translate="true"> хранятся электронные документы предприятия, зарегистрированные в СЭД.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Электронный документ</text><text styleclass="Normal" translate="true"> – карточка документа и файл документа. </text></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#216;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Карточка документа является обязательной регистрационной формой документа, в которой содержится сводная информация о документе. </text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Файл можно добавить в документ в любой момент времени или файл может отсутствовать вовсе.</text></li>
+    </list>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Назначение раздела</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Раздел </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Документы</text><text styleclass="Normal" translate="true"> предназначен для регистрации и/или создания электронной версии документа</text><text styleclass="Normal" style="font-family:Arial; vertical-align:baseline; background-color:#ffffff;" translate="true">, а также позволяет выполнять с документами следующие действия:</text></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Операции над документами</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Работа с документами</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <list id="4" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Creating" styleclass="Normal" translate="true">Создание</link><text styleclass="Normal" translate="true">;</text></li>
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Editing" styleclass="Normal" translate="true">Редактирование документа</link><text styleclass="Normal" translate="true">:</text></li>
+            <list id="4" level="1" type="ul" listtype="bullet" formatstring="&#111;" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:11pt; color:#000000;">
+              <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Edit_Attributs" styleclass="Normal" translate="true">атрибутов</link><text styleclass="Normal" translate="true">;</text></li>
+              <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Edit_File" styleclass="Normal" translate="true">содержимого файла</link><text styleclass="Normal" translate="true">;</text></li>
+            </list>
+          </list>
+          <list id="4" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Removing" styleclass="Normal" translate="true">удаление</link><text styleclass="Normal" translate="true">;</text></li>
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Versions" anchor="availableactions" styleclass="Normal" translate="true">скачивание</link><text styleclass="Normal" translate="true">.</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"></para>
+        </td>
+        <td>
+          <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Errand_Start" styleclass="Normal" translate="true">Создание поручений</link><text styleclass="Normal" translate="true">;</text></li>
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Starting_BP" styleclass="Normal" translate="true">запуск бизнес-процесса</link><text styleclass="Normal" translate="true">;</text></li>
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Versions" styleclass="Normal" translate="true">просмотр версий</link><text styleclass="Normal" translate="true">;</text></li>
+          </list>
+          <list id="6" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Signing" styleclass="Normal" translate="true">подписание</link><text styleclass="Normal" translate="true">;</text></li>
+          </list>
+          <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_History" styleclass="Normal" translate="true">просмотр истории движения документа</link><text styleclass="Normal" translate="true">;</text></li>
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Searching" styleclass="Normal" style="background-color:#ffffff;" translate="true">поиск по названию и описанию документа</link><text styleclass="Normal" style="background-color:#ffffff;" translate="true">;</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" style="background-color:#ffff00;" translate="true">зеркалирование файлов документа;</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" style="background-color:#ffff00;" translate="true">генерация ссылки общего доступа;</text></li>
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Favorites" styleclass="Normal" translate="true">сохранение в избранном</link><text styleclass="Normal" translate="true">.</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" style="background-color:#ffff00;" translate="true">выдача прав доступа к документу;</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

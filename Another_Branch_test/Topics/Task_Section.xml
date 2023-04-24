@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="morozova_e_s" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Раздел &quot;Документы&quot;</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Интерфейс раздела &quot;Задачи&quot;</text></para>
+    </header>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">При запуске системы открывается раздел </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Задачи</text><text styleclass="Body Text" translate="true">, группа задач </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Делаю</text><text styleclass="Body Text" translate="true">. </text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В разделе </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Задачи</text><text styleclass="Body Text" translate="true"> можно выделить две части: меню задач в левой части окна и список задач в правой части. </text></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Меню задач</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Меню задач</text><text styleclass="Body Text" translate="true"> – список видимых </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Glossary" anchor="taskGroup" styleclass="Body Text" translate="true">групп задач</link><text styleclass="Body Text" translate="true">. В этом меню пользователь выбирает группу, задачи которой отображаются в списке справа. Видимость групп можно изменить в пункте </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Настроить фильтры.</text></para>
+    <para styleclass="Normal"><toggle type="picture" print-expanded="true" help-expanded="false" src-collapsed="Task_menu.svg" src-expanded="Task_menu.svg" scale="70.00%" width="162" height="461" styleclass="Image Caption"><caption translate="true"><![CDATA[Меню задач]]></caption><title translate="true">Нажмите, чтобы увеличить</title></toggle></para>
+    <para styleclass="Heading3"><text styleclass="Heading3" translate="true">Счётчик задач</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Справа от названия группы выводится общее количество задач, а для групп </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Делаю</text><text styleclass="Body Text" translate="true"> и </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Контролирую</text><text styleclass="Body Text" translate="true"> также выводится количество новых задач в данной группе. Пример:</text></para>
+    <para styleclass="Body Text"><image src="Group_Doing.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Body Text" translate="true"> – в группе </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Делаю</text><text styleclass="Body Text" translate="true"> текущего пользователя содержится 115 задач, из них 10 – новых.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Если новых задач в </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Делаю</text><text styleclass="Body Text" translate="true"> и </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Контролирую</text><text styleclass="Body Text" translate="true"> нет, выводится только общее количество задач.</text></para>
+    <para styleclass="Body Text"><text styleclass="Heading2" translate="true">Список задач</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В списке задач отображаются все задачи выбранной группы, назначенные текущему пользователю. В </text><var styleclass="Body Text">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Body Text" translate="true"> для всех групп задач, кроме &quot;Избранные&quot;, доступны два режима отображения:</text></para>
+    <para styleclass="List"><image src="Linear_List.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true"> линейный список – список задач, отсортированный по одному из параметров (название, дата старта, автор и т. д.) </text></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:28px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-weight:bold;"><caption translate="true"><![CDATA[Показать скриншот с разметкой областей и кратким описанием]]></caption></toggle></para>
+    <para styleclass="Normal"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><image src="Tasks_View_List.png" scale="37.89%" width="1104" height="602" styleclass="Image Caption"><caption translate="true"><![CDATA[Раздел "Задачи", представление в виде линейного списка
+
+]]></caption></image></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[1] Перейти к стартовой странице системы: раздел </text><text styleclass="List" style="font-weight:bold;" translate="true">Задачи</text><text styleclass="List" translate="true"> → </text><text styleclass="List" style="font-weight:bold;" translate="true">Делаю </text><text styleclass="List" translate="true">(линейный список).</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[2] Выбрать раздел.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[3] Открыть справку | Перейти в службу поддержки.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[4] Открыть профиль пользователя | Выйти из системы.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[5] Загрузить файлы с компьютера.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[6] Создать документ | Запустить процесс | Создать поручение.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[7] Отфильтровать задачи. (&quot;Область фильтрации задач&quot;).</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[8] Переключить способ отображения задач (линейный список или список по приоритету).</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[9] &quot;Меню задач&quot;.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[10] &quot;Заголовок таблицы задач&quot;.</text></para>
+          <para styleclass="List"><anchor id="setupfilters" styleclass="List"></anchor><text styleclass="List" translate="true">[11] Настроить столбцы в списке задач.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[12] &quot;Список задач&quot;.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[13] Настроить меню задач.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[14] &quot;Постраничная навигация&quot;. </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="List"><image src="Eisenhower.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true"> список по приоритету – задачи группируются по столбцам в разрезе срочности и важности:</text><text styleclass="Body Text" translate="true">&#32;</text></para>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Важно и срочно</text><text styleclass="List" translate="true">;</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Важно, не срочно</text><text styleclass="List" translate="true">;</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Не важно, срочно</text><text styleclass="List" translate="true">;</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Не важно и не срочно</text><text styleclass="List" translate="true">.</text></li>
+    </list>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">К важным задачам относятся задачи, для которых постановщик включил флажок </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Важно</text><text styleclass="Body Text" translate="true">, такие задачи помечаются меткой </text><image src="Important.svg" scale="100.00%" styleclass="Body Text"></image><text styleclass="Body Text" translate="true">. К срочным задачам относятся задачи, до конца срока выполнения которых осталось менее заданного периода (по умолчанию – три дня), такие задачи помечаются значком </text><image src="Fair.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Image Caption" translate="true">.</text></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:28px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[Показать скриншот с разметкой областей и кратким описанием]]></caption></toggle></para>
+    <para styleclass="Normal"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="text-align:left;"><image src="Tasks_View_Eisenhower.png" scale="39.45%" width="1151" height="632" styleclass="Image Caption"><caption translate="true"><![CDATA[Раздел "Задачи", представление в виде списка по приоритету
+]]></caption></image></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[1] Перейти к стартовой странице системы: раздел </text><text styleclass="List" style="font-weight:bold;" translate="true">Задачи</text><text styleclass="List" translate="true"> → </text><text styleclass="List" style="font-weight:bold;" translate="true">Делаю </text><text styleclass="List" translate="true">(линейный список).</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[2] Выбрать раздел.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[3] Открыть справку | Перейти в службу поддержки.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[4] Открыть профиль пользователя | Выйти из системы.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[5] Загрузить файлы с компьютера.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[6] Создать документ | Запустить процесс | Создать поручение.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[7] Отфильтровать задачи. (&quot;Область фильтрации задач&quot;).</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[8] Переключить способ отображения задач (линейный список или список по приоритету).</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[9] &quot;Меню задач&quot;.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[10] &quot;Список задач&quot;.</text></para>
+          <para styleclass="List"><text styleclass="List" translate="true">[11] Настроить меню задач.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Переключение между режимами выполняется с помощью значков </text><image src="eis2lin.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Image Caption" translate="true">&#32;</text><text styleclass="Normal" translate="true">/ </text><image src="lin2eis.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Body Text" translate="true">, расположенных в правом верхнем углу раздела. При смене режима меняется цвет значка: текущий режим выделяется синим цветом.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В линейном списке пользователь может настроить формат записи задачи по своему усмотрению, а именно: скрыть инструкцию или описания задачи, имя задачи скрыть невозможно. Сделать это можно с помощью значка </text><image src="Set_Columns.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" translate="true"> в правой верхней части страницы.</text></para>
+    <para styleclass="Body Text"></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Маркировка задач</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В </text><var styleclass="Body Text">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Body Text" translate="true"> приняты следующие обозначения задач в зависимости от их статуса:</text></para>
+    <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><table styleclass="Default" rowcount="4" colcount="2">
+      <tr style="vertical-align:top">
+        <td style="width:289px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Статус задачи/пример</text></para>
+        </td>
+        <td style="width:386px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Комментарий</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:289px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Новая</text><text styleclass="Body Text" translate="true"> (или неоткрытая)</text></para>
+          <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><image src="New_Task.svg" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="width:386px;">
+          <list id="6" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" translate="true">фон – </text><text styleclass="List" style="background-color:#d8f0f3;" translate="true">голубой</text><text styleclass="List" translate="true">;</text></li>
+            <li styleclass="List"><text styleclass="List" translate="true">название задачи – шрифт </text><text styleclass="List" style="color:#0000ff;" translate="true">синего</text><text styleclass="List" translate="true"> цвета.</text></li>
+          </list>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:289px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Прочитанная</text><text styleclass="Body Text" translate="true"> (пользователь открыл карточку задачи)</text></para>
+          <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><image src="Accepted_Task.svg" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="width:386px;">
+          <list id="7" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" translate="true">фон – прозрачный;</text></li>
+            <li styleclass="List"><text styleclass="List" translate="true">название задачи – шрифт </text><text styleclass="List" style="color:#0000ff;" translate="true">синего</text><text styleclass="List" translate="true"> цвета.</text></li>
+          </list>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:289px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Просроченная</text><text styleclass="Body Text" translate="true"> (пользователь не завершил задачу в поставленный срок)</text></para>
+          <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><image src="Expired_Task.svg" scale="100.00%" styleclass="Image Caption"></image></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">или</text></para>
+          <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><image src="Expire_Not_Accepted.svg" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="width:386px;">
+          <list id="8" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" translate="true">название задачи – шрифт </text><text styleclass="List" style="color:#ff0000; background-color:#ffffff;" translate="true">красного</text><text styleclass="List" translate="true"> цвета;</text></li>
+            <li styleclass="List"><text styleclass="List" translate="true">фон – прозрачный или </text><text styleclass="List" style="background-color:#d8f0f3;" translate="true">голубой</text><text styleclass="List" translate="true"> (в зависимости от того, прочитана или </text><text styleclass="List" style="color:#ff0000; background-color:#d8f0f3;" translate="true">не прочитана</text><text styleclass="List" translate="true"> просроченная задача);</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading3"><text styleclass="Heading3" translate="true">В каком формате записывается название задачи</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">По умолчанию полное название задачи формируется из имени задачи, инструкции к задаче и названия процесса/поручения, по которому проходит эта задача:</text></para>
+    <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><image src="Reading_the_Task.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <list id="9" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Имя задачи</text><text styleclass="List" translate="true"> – название задачи: системное (в случае поручения) или указанное администратором при настройке процесса (в случае задачи по процессу).</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Инструкция</text><text styleclass="List" translate="true"> – значение обязательного поля </text><text styleclass="List" style="font-weight:bold;" translate="true">Инструкция</text><text styleclass="List" translate="true">, которое пользователь заполняет при создании поручения или задачи по процессу. Также инструкция может быть предзаполнена администратором в настройках процесса, но доступна пользователю для редактирования.</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Название процесса</text><text styleclass="List" translate="true"> – название процесса/поручения, по которому выполняется задача.</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

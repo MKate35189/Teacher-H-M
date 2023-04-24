@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="morozova_e_s" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Профиль пользователя</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Профиль пользователя</text></para>
+    </header>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В профиле пользователя содержится общие сведения о сотруднике, информация о </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Substitution" styleclass="Body Text" translate="true">замещении</link><text styleclass="Body Text" translate="true">, а также </text><link displaytype="text" defaultstyle="true" type="topiclink" href="" anchor="yesnonitif" styleclass="Body Text" translate="true">настройка почтовых уведомлений</link><text styleclass="Body Text" translate="true"> (в вашем профиле). Вид карточки профиля зависит от того, свой профиль или профиль другого сотрудника просматривает текущий пользователь. </text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Чтобы открыть профиль сотрудника, нажмите ЛКМ на виджете пользователя </text><image src="User_Vidget.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Body Text" translate="true"> или на кликабельной ссылке </text><text styleclass="Body Text" style="text-decoration:underline; color:#0000ff; background-color:#ffffff;" translate="true">Фамилия И.О.</text><text styleclass="Body Text" translate="true"> (например, в столбце </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Отправитель</text><text styleclass="Body Text" translate="true"> или </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Автор </text><text styleclass="Body Text" translate="true">поручения в разделе </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Задачи</text><text styleclass="Body Text" translate="true">).</text></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Общая информация о профиле </text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Аватар пользователя или первые буквы фамилии и имени, если аватар не установлен;</text></li>
+      <li styleclass="List"><text styleclass="List" style="background-color:#ffffff;" translate="true">Фамилия И.О.;</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Должность;</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Электронная почта (можно скопировать в буфер обмена, для этого нажмите ЛКМ на ссылке);</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Телефон;</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Подразделение;</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Кабинет;</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Табельный номер;</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Логин.</text></li>
+    </list>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Замещение</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В своём профиле сотруднику доступны настройки </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Даты отсутствия и заместитель</text><text styleclass="Body Text" translate="true">. Подробное описание см. в подразделе </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Substitution" styleclass="Body Text" translate="true">Замещение</link><text styleclass="Body Text" translate="true">.</text></para>
+    <para styleclass="Heading2"><anchor id="yesnonitif" styleclass="Heading2"></anchor><text styleclass="Heading2" translate="true">Уведомления</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В своём профиле пользователь может включить или отключить уведомления о новых задачах по электронной почте (переключатель </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Да</text><text styleclass="Body Text" translate="true"> / </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Нет</text><text styleclass="Body Text" translate="true">).</text></para>
+    <para styleclass="Body Text"></para>
+    <para styleclass="Body Text"></para>
+  </body>
+</topic>

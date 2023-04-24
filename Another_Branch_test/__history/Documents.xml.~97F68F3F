@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="nechaeva_a_l" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Раздел &quot;Документы&quot;</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Раздел &quot;Документы&quot;</text></para>
+    </header>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Электронный документ. Основные понятия</text></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#167;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">В разделе </text><text styleclass="List" style="font-weight:bold;" translate="true">Документы</text><text styleclass="List" translate="true"> хранятся электронные документы, зарегистрированные в СЭД.</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">Электронный документ = Карточка документа</text><text styleclass="List" style="font-weight:bold; color:#ff0000;" translate="true">*</text><text styleclass="List" style="font-weight:bold;" translate="true"> (свойства документа) + Файл документа.</text></li>
+    </list>
+    <para styleclass="List"><image src="Document_Is.gif" scale="100.00%" styleclass="Image Caption"></image><text styleclass="List" style="font-weight:bold;" translate="true">&#32;</text></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#167;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Card" styleclass="List" translate="true">Карточка документа</link><text styleclass="List" translate="true"> является обязательной регистрационной формой документа, в которой содержится сводная информация о документе. </text></li>
+      <li styleclass="Body Text"><text styleclass="Body Text" translate="true">Файл можно добавить в документ в любой момент времени или файл может отсутствовать вовсе.</text></li>
+    </list>
+    <para styleclass="Heading2"><anchor id="nodes" styleclass="Heading2"></anchor><text styleclass="Heading2" translate="true">Как организован раздел &quot;Документы&quot;</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Для удобства работы с электронным архивом в разделе </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Документы</text><text styleclass="Body Text" translate="true"> выделены следующие подразделы:</text></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Recent" styleclass="List" translate="true">Недавние</link><text styleclass="List" translate="true"> – список документов, с которыми текущий пользователь работал в последнее время. </text><text styleclass="List" style="background-color:#ffffff;" translate="true">Содержимое этого подраздела отображается при загрузке раздела </text><text styleclass="List" style="font-weight:bold; background-color:#ffffff;" translate="true">Документы</text><text styleclass="List" style="background-color:#ffffff;" translate="true">.</text></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Favorites" styleclass="List" translate="true">Избранное</link><text styleclass="List" translate="true"> – </text><text styleclass="Body Text" translate="true">документы и папки, которые пользователь добавил в категорию избранных.</text></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Node_Documents" styleclass="List" style="background-color:#ffffff;" translate="true">Документы</link><text styleclass="List" translate="true"> – электронный архив, в котором хранятся электронные документы в структурированном виде. Из этого подраздела доступны все операции и действия с документами. Загрузка содержимого может занимать некоторое время.</text><br/></li>
+    </list>
+    <para styleclass="Body Text"><snippet src="file::.\Baggage\Snippets\Note.xml" inline="true"/><text styleclass="Body Text" translate="true">Содержимое </text><text styleclass="List" translate="true">подразделов</text><text styleclass="Body Text" translate="true">&#32;</text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Недавние</text><text styleclass="Body Text" translate="true">, </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Избранное</text><text styleclass="Body Text" translate="true"> – индивидуально для каждого пользователя. Содержимое </text><text styleclass="List" translate="true">подраздела</text><text styleclass="Body Text" translate="true">&#32;</text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Документы</text><text styleclass="Body Text" translate="true"> – общее для всех пользователей, но может отличаться у некоторых пользователей, что связано с правами доступа к документам. Подр</text><text styleclass="List" translate="true">азделы невозможно переименовать, скрыть или удалить.</text></para>
+    <para styleclass="SeeAlso"><text styleclass="SeeAlso" translate="true">См. также:</text></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="Folders" styleclass="SeeAlso Body" translate="true">Работа с папками</link></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="SingleCreating" styleclass="SeeAlso Body" translate="true">Инструкция. Как создать документ</link></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Creating" styleclass="SeeAlso Body" translate="true">Создание документов</link></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Card" anchor="howToOpenCard" styleclass="SeeAlso Body" translate="true">Как открыть карточку документа</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

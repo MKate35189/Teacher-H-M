@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="morozova_e_s" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Частые вопросы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Частые вопросы</text></para>
+    </header>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:28px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[Не получается удалить документ]]></caption></toggle></para>
+    <para styleclass="Normal"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Документ невозможно удалить, если:</text></para>
+          <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="List"><text styleclass="List" style="background-color:#ffffff;" translate="true">документ подписан;</text></li>
+            <li styleclass="List"><text styleclass="List" style="background-color:#ffffff;" translate="true">документ участвует в незавершённых процессах или поручениях; </text></li>
+            <li styleclass="List"><text styleclass="List" style="background-color:#ffffff;" translate="true">у пользователя не хватает прав на удаление документа.</text></li>
+          </list>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">Для удаления документа у пользователя должны быть </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Access_Rights" styleclass="Body Text" style="background-color:#ffffff;" translate="true">права доступа</link><text styleclass="Body Text" style="background-color:#ffffff;" translate="true"> как минимум:</text></para>
+          <list id="4" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <list id="4" level="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+              <li styleclass="List"><text styleclass="List" style="background-color:#ffffff;" translate="true">&quot;Удаление&quot; (Delete) – на документ, который пользователь планирует удалить.</text></li>
+              <li styleclass="List"><text styleclass="List" style="background-color:#ffffff;" translate="true">&quot;Создание версий&quot; (Version) – на все папки, с которыми связан удаляемый документ. </text></li>
+            </list>
+          </list>
+          <para styleclass="List"><text styleclass="List" style="background-color:#ffffff;" translate="true">Например, если документ связан с папками других отделов, а у пользователя прав</text><text styleclass="Normal" style="vertical-align:baseline; background-color:#ffffff;" translate="true">а́</text><text styleclass="List" style="background-color:#ffffff;" translate="true"> доступа к этим папкам меньше, чем &quot;Создание версий&quot; (Version), то система не позволит удалить документ.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:28px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[Как удалить задачу?]]></caption></toggle></para>
+    <para styleclass="Normal"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text"><text styleclass="List" translate="true">В </text><var styleclass="List">&lt;%PRODUCTNAME%&gt;</var><text styleclass="List" translate="true"> нет возможности удалить задачу – задачу можно завершить (выполнить) или делегировать другому сотруднику. </text></para>
+          <para styleclass="Body Text"><text styleclass="List" translate="true">В крайнем случае администратор системы может прервать процесс вместе со всеми задачами по процессу. При этом в истории незавершённой задачи будет записан статус &quot;Прервана&quot;.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:28px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[Как восстановить удалённый документ?]]></caption></toggle></para>
+    <para styleclass="Normal"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">Восстановить удалённый документ невозможно, можно восстановить только файл документа. Если возникнет такая необходимость, обратитесь к администратору с просьбой восстановить файл документа. Необходимо будет назвать дату и примерное время удаления, а также логин сотрудника, удалившего документ.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:28px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[Как узнать дату и время создания (регистрации) документа в системе]]></caption></toggle></para>
+    <para styleclass="Normal"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">В списке документов в столбце </text><text styleclass="Body Text" style="font-weight:bold; background-color:#ffffff;" translate="true">Дата создания</text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true"> для документов выводится дата и время создания последней версии документа. Дата регистрации документа в системе совпадает с датой создания первой версии документа (карточка документа </text><text styleclass="Body Text" translate="true">→</text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true"> вкладка </text><text styleclass="Body Text" style="font-weight:bold; background-color:#ffffff;" translate="true">Версии </text><text styleclass="Body Text" translate="true">→</text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true"> столбец </text><text styleclass="Body Text" style="font-weight:bold; background-color:#ffffff;" translate="true">Дата версии</text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">).</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:28px;"><anchor id="docKind" styleclass="Normal" style="font-weight:bold;"></anchor><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[Как изменить вид документа?]]></caption></toggle></para>
+    <para styleclass="Normal"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text"><snippet src="file::.\Baggage\Snippets\Note.xml" inline="true"/><text styleclass="Body Text" translate="true">Изменить вид документа можно только в процессе создания документа, до первого сохранения карточки документа. </text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Чтобы изменить вид создаваемого документа, в окне </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Создание документа</text><text styleclass="Body Text" translate="true"> нажмите на название текущего вида в верхней части окна. </text></para>
+          <para styleclass="Body Text"><image src="Change_Doc_Kind.png" scale="76.52%" width="550" height="93" styleclass="Image Caption" style="background-color:#ffffff;"></image></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Откроется окно выбора вида документа, выберите новый вид. После переопределения вида документа прикреплённый файл останется в карточке документа, а все поля, кроме </text><text styleclass="Body Text" style="font-weight:bold; background-color:#ffffff;" translate="true">Описание</text><text styleclass="Body Text" translate="true">, необходимо будет заполнить вновь.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal_p-rich_text_section" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#f8f8f8; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"></para>
+  </body>
+</topic>

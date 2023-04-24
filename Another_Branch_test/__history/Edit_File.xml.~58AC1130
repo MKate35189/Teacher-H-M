@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="Nechaeva_A_L" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Редактирование файла</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Редактирование файла документа</text></para>
+    </header>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Файл документа можно отредактировать одним из доступных способов:</text></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href anchor="newversion" styleclass="List" translate="true">загрузить новую версию файла</link><text styleclass="List" translate="true">;</text></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href anchor="editing" styleclass="List" translate="true">отредактировать содержимое файла</link><text styleclass="List" translate="true">, если на компьютере установлен файловый агент </text><text styleclass="List" style="background-color:#ffff00;" translate="true">RDAgent</text><text styleclass="List" translate="true">. </text></li>
+    </list>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Правила при редактировании файла</text></para>
+    <para styleclass="List"><image src="info-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true"> При редактировании или удалении </text><text styleclass="List" style="font-style:italic;" translate="true">файла</text><text styleclass="List" translate="true"> всегда создаётся новая версия документа.</text></para>
+    <para styleclass="List"><image src="info-16px.png" scale="100.00%" styleclass="List" style="background-color:#ffffff;"></image><text styleclass="List" style="background-color:#ffffff;" translate="true"> При сохранении изменений в файле документ обязательно блокируется. Возможна либо явная блокировка (по команде пользователя), либо неявная (блокирует система на непродолжительное время, необходимое для сохранения изменений).</text></para>
+    <para styleclass="List"><text styleclass="List" style="background-color:#ffff00;" translate="true">?что ещё добавить?</text></para>
+    <para styleclass="Heading2"><anchor id="newversion" styleclass="Heading2"></anchor><text styleclass="Heading2" translate="true">Как загрузить новую версию файла</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Чтобы загрузить новую версию файла:</text></para>
+    <list id="3" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">В карточке документа выберите команду </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Редактировать</text><text styleclass="Normal" translate="true"> → </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Загрузить новую версию файла документа</text><text styleclass="Normal" translate="true">.</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">В открывшемся окне выберите и прикрепите нужный файл с компьютера.</text><br/><text styleclass="Normal" translate="true">В результате будет создана новая версия документа и новый файл будет прикреплён к этой версии. При необходимости пользователь может отобразить предпросмотр документа в карточке документа (</text><image src="See_Preview.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" translate="true">), а также проверить все </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Versions" styleclass="Normal" translate="true">версии</link><text styleclass="Normal" translate="true"> текущего документа.</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Закройте карточку документа.</text><br/><text styleclass="Normal" translate="true">Для этого нажмите </text><image src="Close14px.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" translate="true"> в правом верхнем углу карточки или значок &quot;←&quot; в строке навигации браузера (Alt + ← с клавиатуры). Система вернётся на ту страницу, с которой пользователь открыл карточку документа: список документов или карточка задачи, к которой документ прикреплён.</text></li>
+    </list>
+    <para styleclass="Heading2"><anchor id="editing" styleclass="Heading2"></anchor><text styleclass="Heading2" style="background-color:#ffff00;" translate="true">Как отредактировать содержимое файла с помощью файлового агента</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Пользователь может отредактировать содержимого файла без промежуточного сохранения, если на компьютере установлен файловый агент </text><text styleclass="Normal" style="background-color:#ffff00;" translate="true">RDAgent – внутренняя утилита/приложение/расширение (нужное подчеркнуть)</text><text styleclass="Normal" translate="true"> </text><var styleclass="Normal">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="background-color:#ff0000;" translate="true">.........................описывать буду после реализации</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

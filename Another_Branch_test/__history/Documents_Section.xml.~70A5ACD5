@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="nechaeva_a_l" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Интерфейс раздела &quot;Документы&quot;</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Интерфейс раздела &quot;Документы&quot;</text></para>
+    </header>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Для удобства документы в разделе сгруппированы в подразделы: </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Recent" styleclass="Body Text" translate="true">Недавние</link><text styleclass="Body Text" translate="true">, </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Favorites" styleclass="Body Text" translate="true">Избранное</link><text styleclass="Body Text" translate="true">, </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Documents" styleclass="Body Text" translate="true">Документы</link><text styleclass="Body Text" translate="true">. Содержимое выбранного подраздела отображается справа. По умолчанию открывается содержимое подраздела </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">Недавние</text><text styleclass="Body Text" translate="true">.</text></para>
+    <para styleclass="Body Text"><toggle type="picture" print-expanded="true" help-expanded="false" src-collapsed="Documents_View.png" src-expanded="Documents_View.png" scale="50.00%" width="1463" height="795" styleclass="Image Caption"><caption translate="true"><![CDATA[Раздел "Документы"]]></caption><title translate="true">Нажмите, чтобы увеличить</title></toggle></para>
+    <para styleclass="List"><text styleclass="List" style="text-decoration:underline;" translate="true">Области</text><text styleclass="List" translate="true">:</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[1] Перейти к стартовой странице системы: раздел </text><text styleclass="List" style="font-weight:bold;" translate="true">Задачи</text><text styleclass="List" translate="true"> → </text><text styleclass="List" style="font-weight:bold;" translate="true">Делаю </text><text styleclass="List" translate="true">(линейный список).</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[2] Выбрать раздел.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[3] Открыть справку | Перейти в службу поддержки.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[4] Открыть профиль пользователя | Выйти из системы.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[5] Загрузить файлы с компьютера.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[6] Создать документ | Запустить процесс | Создать поручение | Создать папку.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[7] &quot;Область поиска документов&quot;.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[8] &quot;Меню документов&quot;.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[9] &quot;Строка навигации&quot;.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[10] </text><anchor id="tabheader" styleclass="List"></anchor><text styleclass="List" translate="true">&quot;Заголовок таблицы&quot;.</text></para>
+    <para styleclass="List"><snippet src="file::.\Baggage\Snippets\Important.xml" inline="true"/><text styleclass="List" translate="true">В столбце </text><text styleclass="List" style="font-weight:bold;" translate="true">Дата создания</text><text styleclass="List" translate="true"> для папки выводится дата создания папки, для документа – дата создания последней версии документа.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[11] &quot;Список документов и папок&quot;.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[12] &quot;Область представлений&quot;.</text></para>
+    <para styleclass="List"><text styleclass="List" translate="true">[13] &quot;Постраничная навигация&quot;.</text></para>
+    <para styleclass="Heading2"><anchor id="docnavigation" styleclass="Heading2"></anchor><text styleclass="Heading2" translate="true">Навигация в разделе &quot;Документы&quot;</text></para>
+    <para styleclass="Normal"><text styleclass="Body Text" translate="true">Перемещение по разделу возможно как в дереве документов [6], так и в области представлений [10].</text></para>
+    <para styleclass="Normal"><text styleclass="Body Text" style="font-weight:bold;" translate="true">В дереве документов</text><text styleclass="Body Text" translate="true">:</text></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">одинарный щелчок по названию подраздела выводит его содержимое в области представлений [10];</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">одинарный щелчок по названию папки выводит список документов и вложенных папок в области представлений [10];</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">одинарный щелчок по стрелке </text><image src="Expand.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Image Caption" translate="true"> / </text><image src="Expand_Blue.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="List" translate="true"> разворачивает содержимое подраздела или папки в дереве документов [6] и отображает вложенные папки, при этом список документов в области представлений [10] не меняется.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">одинарный щелчок по стрелке </text><image src="Collapse.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Image Caption" translate="true"> / </text><image src="Collapse_blue.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Image Caption" translate="true">&#32;</text><text styleclass="List" translate="true">сворачивает содержимое подраздела или папки, при этом список документов в области представлений [10] не меняется.</text></li>
+    </list>
+    <para styleclass="Normal"><text styleclass="Body Text" style="font-weight:bold;" translate="true">В области представлений</text><text styleclass="Body Text" translate="true">:</text></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">в списке документов по папкам;</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">с помощью строки навигации:</text></li>
+    </list>
+    <para styleclass="List"><image src="Navigation_Bar.png" scale="100.00%" styleclass="Image Caption"><caption translate="true"><![CDATA[Строка навигации]]></caption></image></para>
+    <para styleclass="List"><text styleclass="List" translate="true">Чтобы перейти в папку, нажмите ЛКМ на названии нужной папки.</text></para>
+    <para styleclass="Body Text"><snippet src="file::.\Baggage\Snippets\Note.xml" inline="true"/><text styleclass="Body Text" translate="true">В дереве документов текущий выбранный подраздел или папка выделяется синим цветом.</text></para>
+    <para styleclass="Heading2"><anchor id="howToOpenCard" styleclass="Heading2"></anchor><text styleclass="Heading2" translate="true">Как открыть карточку документа</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Карточку документа можно открыть как в списке документов, так и из карточки задачи, к которой этот документ прикреплён. Для этого нужно нажать значок </text><image src="Open_Card.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Body Text" translate="true"> в виджете документа, который появляется при наведении курсора мыши на документ. </text></para>
+    <para styleclass="Body Text"><image src="Open_Doc_Card.png" scale="100.00%" styleclass="Image Caption"><caption translate="true"><![CDATA[Как открыть карточку документа]]></caption></image></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">При одинарном нажатии ЛКМ на названии документа </text><var styleclass="Body Text">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Body Text" translate="true"> скачивает файл документа (если не настроен запрет на уровне операционной системы или браузера) либо выводит сообщение о том, что файл отсутствует в документе.</text></para>
+    <para styleclass="SeeAlso"><text styleclass="SeeAlso" translate="true">См. также:</text></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="Documents" styleclass="SeeAlso Body" translate="true">Раздел &quot;Документы&quot;</link></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Card" styleclass="SeeAlso Body" translate="true">Карточка документа</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

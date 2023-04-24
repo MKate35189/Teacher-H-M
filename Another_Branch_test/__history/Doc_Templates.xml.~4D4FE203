@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Out Of Date" lasteditedby="nechaeva_a_l" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Шаблоны документов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Шаблоны документов</text></para>
+    </header>
+    <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Шаблон документа</text><text styleclass="Body Text" translate="true"> – заготовка файла документа, состоящая из статической и динамической частей. Статическая часть остаётся неизменной во всех файлах, сгенерированных на основании одного шаблона. Динамическая часть содержит переменные, которые в момент генерации файла заменяются на определённые значения, например дата документа, фамилия, должность сотрудника.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Шаблоны используются для автоматического создания файла документа и позволяют избавиться от ручного создания документов, привести документы одного типа к единому виду. С помощью шаблонов удобно создавать такие типовые документы, как счёт, счёт-фактура, накладная, заявление на отпуск, приказ о предоставлении отпуска и другие.</text></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Шаблоны документов. Правила</text></para>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#167;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Шаблон документа может создать любой пользователь системы, подключить шаблон к определённому виду документов и добавить шаблон в процесс может только администратор в Консоли администрирования.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">В системе шаблон документа</text><text styleclass="Body Text" translate="true"> – это обычный электронный документ. Как правило, все шаблоны документов хранятся в одной папке (например, Документы/Templates).</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">В качестве шаблона допустимы файлы следующих форматов: .docx, .xlsx, .pdf (pdf-файл может использоваться в качестве шаблона только для постановки на нём штампа электронной подписи).</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Переменные должны быть записаны в формате &quot;${VARIABLE_NAME}&quot;, где VARIABLE_NAME – уникальное в рамках системы имя переменной. Для именования переменных рекомендуем использовать латинские символы, исключение</text><text styleclass="Body Text" translate="true"> – </text><text styleclass="List" translate="true">якорь ${ESIGN_Роль_ЭП}, где &quot;Роль_ЭП&quot; – идентификатор якоря в редакторе процесса.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Значения переменных формируются из атрибутов электронного документа или переменных процесса.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">При использовании шаблона документа в каком-либо процессе у пользователя должно быть право доступа как минимум &quot;Просмотр&quot; (Browse) к документу-шаблону.</text></li>
+    </list>
+    <para styleclass="List" style="margin-left:7px;"><text styleclass="Heading2" translate="true">Как создать шаблон документа</text></para>
+    <list id="6" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">На компьютере подготовьте файл, который будет использоваться в &#160;качестве шаблона.</text></li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-18px; margin-left:41px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Normal" style="font-weight:bold;"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="Normal" style="font-size:12pt; font-weight:bold;"><caption translate="true"><![CDATA[Показать пример шаблона документа (docx)]]></caption></toggle></para>
+    <para styleclass="Normal" style="margin-left:41px;"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text" style="margin-left:41px;"><image src="Doc_Template.png" scale="80.00%" width="699" height="601" styleclass="Image Caption"><caption translate="true"><![CDATA[Пример шаблона документа]]></caption></image></para>
+        </td>
+      </tr>
+    </table></para>
+    <list id="6" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Creating" styleclass="List" translate="true">Создайте</link><text styleclass="List" translate="true"> в </text><var styleclass="List">&lt;%PRODUCTNAME%&gt;</var><text styleclass="List" translate="true"> документ необходимого вида и в карточку этого документа прикрепите файл, который в дальнейшем планируете использовать в качестве шаблона.</text></li>
+    </list>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Загруженный шаблон документа можно использовать в процессах, также пользователь может скачать шаблон документа на компьютер, заполнить по своему усмотрению и прикрепить к карточке нужного документа.</text></para>
+    <para styleclass="Heading3"><text styleclass="Heading3" translate="true">Как узнать, есть ли шаблон документа для определённого вида документа</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">При создании документа пользователь первым делом выбирает вид документа. Если для документа выбранного вида администратор установил шаблон, то на втором этапе, в окне </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Создание документа</text><text styleclass="Normal" translate="true">, пользователю будет доступна ссылка </text><text styleclass="List" style="font-weight:bold; color:#41acdc;" translate="true">Скачать шаблон документа</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><image src="Download_Doc_Template.png" scale="80.00%" width="647" height="514" styleclass="Image Caption"><caption translate="true"><![CDATA[Скачать шаблон документа]]></caption></image><text styleclass="Normal" translate="true">&#32;</text></para>
+  </body>
+</topic>

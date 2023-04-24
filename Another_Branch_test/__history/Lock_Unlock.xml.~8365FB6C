@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Under Construction" lasteditedby="Nechaeva_A_L" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Блокировка и разблокировка</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Блокировка и разблокировка документа</text></para>
+    </header>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">В </text><var styleclass="Body Text">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Body Text" translate="true"> возможна явная и неявная блокировка документа:</text></para>
+    <list id="75" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">явная &#160;– по команде пользователя. может потребоваться, когда пользователь хочет на какое-то время защитить документ от изменений. </text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">неявная – блокирует система на непродолжительное время, необходимое для сохранения изменений.</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Правила блокировки</text></para>
+    <para styleclass="List"><image src="info-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">Невозможно заблокировать документ, который уже заблокирован другим пользователем.</text></para>
+    <para styleclass="List"><image src="info-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">Для блокировки документа пользователь должен обладать правом доступа как минимум &quot;Создание версий&quot; &#160;к этому документу.</text></para>
+    <para styleclass="List"><image src="info-16px.png" scale="100.00%" styleclass="List" style="background-color:#ffff00;"></image><text styleclass="List" style="background-color:#ffff00;" translate="true">Блокировка обязательна при редактировании файла и необязательна при редактировании атрибутов.</text></para>
+    <para styleclass="List"><image src="info-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">Если до начала редактирования документ был заблокирован, то после сохранения изменений блокировка остаётся.</text></para>
+    <para styleclass="List"><image src="info-16px.png" scale="100.00%" styleclass="List" style="background-color:#ffff00;"></image><text styleclass="List" style="background-color:#ffff00;" translate="true">???Блокировка документа, который находится в режиме редактирования файла с файловым агентом.</text></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" style="background-color:#ffff00;" translate="true">Правила снятия блокировки</text></para>
+    <para styleclass="Normal"><image src="info-16px.png" scale="100.00%" styleclass="Image Caption" style="background-color:#ffff00;"></image><text styleclass="Normal" style="background-color:#ffff00;" translate="true"> Снятие блокировки не отменяет изменений.</text></para>
+    <list id="76" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Body Text" style="font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="Body Text"><text styleclass="List" translate="true">Если документ ещё не заблокирован </text><text styleclass="List" style="background-color:#ffff00;" translate="true">вами</text><text styleclass="List" translate="true">, определитесь, нужно ли его заблокировать:</text></li>
+    </list>
+    <list id="77" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">блокировка обязательна</text><text styleclass="List" translate="true"> – при редактировании файла;</text></li>
+      <li styleclass="List"><text styleclass="List" style="font-weight:bold;" translate="true">блокировка не обязательна</text><text styleclass="List" translate="true"> – при редактировании атрибутов документа (название, описание, номер и т.д.)</text></li>
+    </list>
+  </body>
+</topic>

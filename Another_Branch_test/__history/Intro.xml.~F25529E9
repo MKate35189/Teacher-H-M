@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="morozova_e_s" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Знакомство с &lt;%PRODUCTNAME%&gt;</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Знакомство с &lt;%PRODUCTNAME%&gt;</text></para>
+    </header>
+    <para styleclass="Body Text"><var styleclass="Normal" style="font-weight:bold;">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Normal" translate="true"> – </text><text styleclass="Body Text" translate="true">система электронного документооборота, </text><conditional-text type="IF" value="HXS"/><text styleclass="Body Text" translate="true">позволяющая организовать единое информационное пространство документов, повысить управляемость внутренних процессов компании, оптимизировать работу сотрудников и подразделений.</text><conditional-text type="END"/><text styleclass="Body Text" translate="true">предназначенная для организации внутреннего и внешнего документооборота, формализации и автоматизации процессов документооборота, а также для совместной работы сотрудников с документами.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true"> </text><var styleclass="Body Text">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Body Text" translate="true"> позволяет:</text></para>
+    <para styleclass="List"><image src="check-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">создавать архивы электронных документов;</text></para>
+    <para styleclass="List"><image src="check-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">описывать, настраивать и отслеживать выполнение бизнес-процессов;</text></para>
+    <para styleclass="List"><image src="check-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">управлять правами доступа и безопасностью компании;</text></para>
+    <para styleclass="List"><image src="check-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">подписывать документы с помощью электронной подписи (простой и усиленной);</text></para>
+    <para styleclass="List"><image src="check-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">интегрироваться с различными корпоративными системами (ERP-, CRM-системами, почтовыми сервисами).</text></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Запуск программы (веб-клиент)</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Чтобы запустить </text><var styleclass="Body Text">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Body Text" translate="true">:</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">В адресной строке браузера введите</text><text styleclass="List" style="background-color:#ffffff;" translate="true"> http-адрес* системы</text><text styleclass="List" translate="true"> и нажмите </text><text styleclass="List" style="font-weight:bold;" translate="true">Enter</text><text styleclass="List" translate="true">. </text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">В открывшемся окне </text><text styleclass="List" style="font-weight:bold;" translate="true">Вход</text><text styleclass="List" translate="true"> введите логин и пароль пользователя.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Нажмите клавишу </text><text styleclass="List" style="font-weight:bold;" translate="true">Enter</text><text styleclass="List" translate="true"> или кнопку </text><text styleclass="List" style="font-weight:bold;" translate="true">Войти</text><text styleclass="List" translate="true">. </text></li>
+    </list>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">После успешной аутентификации откроется </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Tasks" styleclass="Body Text" translate="true">раздел Задачи</link><text styleclass="Body Text" translate="true">.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">* http-адрес предоставляет администратор системы.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Если войти в систему не удалось, проверьте логин и пароль, при необходимости исправьте и повторите попытку входа. Если повторная попытка не удалась, обратитесь к администратору по адресу электронной почты, указанному в окне входа, или другим удобным способом.</text></para>
+    <para styleclass="Body Text"><snippet src="file::.\Baggage\Snippets\Note.xml" inline="true"/><text styleclass="Body Text" translate="true">Поддерживаемые браузеры: Google Chrome, Mozilla Firefox актуальных версий.</text></para>
+    <para styleclass="Body Text"><snippet src="file::.\Baggage\Snippets\Tip.xml" inline="true"/><text styleclass="Body Text" translate="true">Для быстрого доступа к веб-клиенту СЭД рекомендуем добавить страницу в закладки (Ctrl + D) или избранные сайты, или создать ярлык на рабочем столе. Также при желании вы можете сохранить пароль в настройках браузера при первом входе в систему или позже в настройках браузера.</text></para>
+    <para styleclass="SeeAlso"><text styleclass="SeeAlso" translate="true">См. также:</text></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="Interface" styleclass="SeeAlso Body" translate="true">Интерфейс &lt;%PRODUCTNAME%&gt;</link></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="Documents" styleclass="SeeAlso Body" translate="true">Раздел &quot;Документы&quot;</link></para>
+    <para styleclass="SeeAlso Body"><link displaytype="text" defaultstyle="true" type="topiclink" href="Tasks" styleclass="SeeAlso Body" translate="true">Раздел &quot;Задачи&quot;</link></para>
+    <para styleclass="Heading2"></para>
+  </body>
+</topic>

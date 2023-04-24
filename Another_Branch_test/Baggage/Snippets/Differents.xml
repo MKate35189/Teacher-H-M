@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="nechaeva_a_l" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Tip</title>
+  <body>
+        <para styleclass="Body Text"><image src="triangle_attention.svg" scale="70.00%" width="15" height="13" styleclass="Image Caption" style="font-size:9pt; background-color:#feeada;"></image><text styleclass="Image Caption" style="font-size:9pt; background-color:#ffffff;" translate="true">&#32;</text><text styleclass="Body Text" style="font-size:9pt; font-style:italic; background-color:#ffffff;" translate="true">Содержание этой статьи может немного расходиться с текущей реализацией </text><var styleclass="Body Text" style="font-size:9pt; font-style:italic; background-color:#ffffff;">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Body Text" style="font-size:9pt; font-style:italic; background-color:#ffffff;" translate="true">. Если возникнут вопросы, пожалуйста, обращайтесь по электронной почте</text><text styleclass="Body Text" style="font-size:9pt; background-color:#ffffff;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="weblink" href="mailto:guides@ntik.ru" styleclass="Body Text" style="font-size:9pt; background-color:#ffffff;" translate="true">guides@ntik.ru</link><text styleclass="Body Text" style="font-size:9pt; background-color:#ffffff;" translate="true">.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="nechaeva_a_l" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Удаление документа</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Удаление объектов (документов, файлов, папок)</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="List" style="background-color:#ffffff;" translate="true">В </text><var styleclass="List" style="background-color:#ffffff;">&lt;%PRODUCTNAME%&gt;</var><text styleclass="List" style="background-color:#ffffff;" translate="true"> можно удалить папку, документ или файл документа. </text></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Правила удаления объектов</text></para>
+    <list id="32" type="ul" listtype="bullet" formatstring="&#216;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Пользователь не может удалить документ, заблокированный другим пользователем. При этом может удалить документ, который он заблокировал сам.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Невозможно удалить документ, который участвует в процессе документооборота.</text></li>
+      <li styleclass="List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Access_Rights" anchor="minrights" styleclass="List" translate="true">Минимальный уровень доступа</link><text styleclass="List" translate="true">, необходимый для удаления объекта: </text></li>
+    </list>
+    <para styleclass="List"><tab /><text styleclass="List" translate="true">&quot;Удаление&quot; – на объект, который пользователь хочет удалить.</text></para>
+    <para styleclass="List"><tab /><text styleclass="List" translate="true">&quot;Создание версий&quot; – на все папки, с которыми связан </text><text styleclass="List" translate="true">(вот тут ссылку на линковку дать, как реализуют и опишу)</text><text styleclass="List" translate="true"> удаляемый объект.</text></para>
+    <list id="32" type="ul" listtype="bullet" formatstring="&#216;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Невозможно удалить папку, содержащую вложения. При попытке удалить непустую папку, система выдаст предупреждение </text><text styleclass="List" translate="true">(пока странный текст ошибки: </text><text styleclass="List" translate="true">Ошибка: Object with primary key 360758 is not found</text><text styleclass="List" translate="true">).</text></li>
+    </list>
+    <para styleclass="Normal"><text styleclass="Heading2" style="background-color:#ffffff;" translate="true">Удаление файла документа</text></para>
+    <para styleclass="Normal"><snippet src="file::.\Baggage\Snippets\Important.xml" inline="true"/><text styleclass="Normal" translate="true">При удалении файла будет создана новая версия документа.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="background-color:#ff0000;" translate="true">.........................описывать буду после реализации</text></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">Удаление документов и папок</text></para>
+    <para styleclass="Normal"><snippet src="file::.\Baggage\Snippets\Attention.xml" inline="true"/><text styleclass="Normal" translate="true">Вместе с карточкой документа удаляется все содержимое документа: файл (при наличии), все версии документа и электронные подписи. Пожалуйста, перед удалением оцените все вероятные последствия – отменить действие невозможно.</text></para>
+    <para styleclass="Normal"><image src="Folder.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" style="background-color:#ffffff;" translate="true">Чтобы удалить папку, в общем списке документов нажмите значок </text><image src="Also_Dots.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Image Caption" style="font-style:normal;" translate="true">, далее в выпадающем меню выберите </text><text styleclass="Image Caption" style="font-weight:bold; font-style:normal;" translate="true">Удалить </text><text styleclass="Image Caption" style="font-weight:bold; font-style:normal; background-color:#ffff00;" translate="true">карточку документа</text><text styleclass="Image Caption" style="font-style:normal;" translate="true">. </text></para>
+    <para styleclass="Normal"><image src="Icon_No_File.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" style="background-color:#ffffff;" translate="true">Чтобы удалить документ, в общем списке документов или в карточке документа нажмите значок </text><image src="Also_Dots.svg" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Image Caption" style="font-style:normal;" translate="true">, далее в выпадающем меню выберите </text><text styleclass="Image Caption" style="font-weight:bold; font-style:normal;" translate="true">Удалить </text><text styleclass="Image Caption" style="font-weight:bold; font-style:normal; background-color:#ffff00;" translate="true">карточку</text><text styleclass="Image Caption" style="font-weight:bold; font-style:normal;" translate="true"> документа</text><text styleclass="Image Caption" style="font-style:normal;" translate="true">.</text></para>
+  </body>
+</topic>

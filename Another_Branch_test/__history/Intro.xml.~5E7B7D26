@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="Nechaeva_A_L" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Знакомство с &lt;%PRODUCTNAME%&gt;</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Знакомство с &lt;%PRODUCTNAME%&gt;</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Система электронного документооборота </text><var styleclass="Normal">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Normal" translate="true"> предназначена для:</text></para>
+    <para styleclass="List"><image src="check-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">организации внутреннего и внешнего документооборота предприятия;</text></para>
+    <para styleclass="List"><image src="check-16px.png" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">формализации и автоматизации бизнес-процессов, связанных с документооборотом;</text></para>
+    <para styleclass="List"><link displaytype="image" src="check-16px.png" type="topiclink" href="About_Riverdoc"></link><text styleclass="List" translate="true">совместной работы сотрудников.</text></para>
+    <para styleclass="Normal"><var styleclass="Normal">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Normal" translate="true"> поставляется в &quot;коробочной&quot; версии с возможностью расширения функционала согласно требованиям конкретной организации. </text><text styleclass="Normal" style="background-color:#ffff00;" translate="true">Для развёртывания СЭД подходит как платная, так и бесплатная инфраструктура (СУБД, сервер приложений и т. д.) </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Система </text><var styleclass="Normal">&lt;%PRODUCTNAME%&gt;</var><text styleclass="Normal" translate="true"> устанавливается на сервер, установка клиентской части требуется только на рабочих компьютерах руководителей отдела делопроизводства и секретарей (NMA-клиент). Для остальных сотрудников организации не требуется установка клиентской части – используется web-клиент. Таким образом, система является легко масштабируемой и не требует дополнительных финансовых затрат на подключение новых пользователей. </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Настоящий документ разработан для первоначального знакомства пользователей с системой и описывает, </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Documents" styleclass="Normal" translate="true">как работать с документами</link><text styleclass="Normal" translate="true">, хранящимися в СЭД, как </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Errand_Tasks" styleclass="Normal" translate="true">создавать поручения</link><text styleclass="Normal" translate="true"> и </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Business_Tasks" styleclass="Normal" translate="true">запускать процессы документооборота</link><text styleclass="Normal" translate="true">.</text></para>
+  </body>
+</topic>

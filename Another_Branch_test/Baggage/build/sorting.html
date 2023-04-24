@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <title>Раздел &quot;Задачи&quot; &gt; Сортировка задач</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta name="description" content="Данный раздел находится в разработке Сортировка позволяет упорядочить списки по одному из параметров: названию, дате, автору, важности, принадлежности к категории &quot;Избранное&quot; и..." />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+   <link rel="shortcut icon" href="favicon.ico" />
+   <link type="text/css" href="custom.css" rel="stylesheet" />
+
+   <style TYPE="text/css" media="screen"> 
+      html, body { margin:0; 
+        padding:0; 
+        background: #ffffff; 
+      } 
+      div#printheader { display: none; }
+      #idheader { 
+        width:100%; 
+        height:auto; 
+        padding: 0; 
+        margin: 0;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+      } 
+      /* The "min-height" for "#idheader table" ensures that the (blue) header of the topic
+         has at least the same height as the header of the navigation panel left of it */
+      #idheader table { background: #1E364C; min-height: 59px }             
+      #idheader h1 span { color: #FFF }     
+      #idnav {
+        text-align: right;
+        width: 126px;
+        vertical-align: middle;        
+      } 
+      #idnav a { text-decoration: none }
+      #idnav span {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-left: 4px;
+        background:url('hm_webhelp_buttons_grey.png') top left no-repeat;
+      } 
+      #idnav a span {
+        background-image:url('hm_webhelp_buttons_white.png');
+      } 
+      #idnav a span:hover {
+        background-image:url('hm_webhelp_buttons_orange.png');
+      } 
+      #idnav span.hmbtnprev { background-position: 0 -32px }
+      #idnav span.hmbtnnext { background-position: -24px -32px }
+      #idnav span.hmbtntop  { background-position: -48px -32px }
+      #idnav span.hmbtntoggle  { width: 20px; background-position: -70px -32px }
+      #idnav span.hmbtnprint  { background-position: -88px -32px }
+
+      #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+      #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+      #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+      #callout-table a {text-decoration: none; color: blue;}
+      #callout-table a:visited {text-decoration: none; color: blue;}
+      #overview-table a {text-decoration: none; color: black;}
+      #overview-table a:visited {text-decoration: none; color: black;}
+      #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}       
+      p.help-url { margin: 20px 0 5px 0; text-align: center; font-size: 80%; text-decoration: none }      
+      #switchtoggles { text-align: right; padding: 0 2px 0 0; font-size: 90%; } 
+      .sync-toc { color: #FFF; font-size: 8pt; font-weight: bold; display: none; }
+      .sync-toc a { color: #FFF; text-decoration: none; font-weight: bold;}
+      .sync-toc a:visited { color: #FFF; }
+      .sync-toc a:hover { text-decoration: underline; }
+      a.hmanchor { display: inline-block; margin-top: -4em; padding-top: 4em }	  
+   </style>
+   <style TYPE="text/css" media="print">
+      div#idheader, img.dropdown-toggle-icon, p.help-url { display:none } 
+   </style>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+
+   <script type="text/javascript">
+     HMSyncTOC("index.html", "sorting.html");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+<body>
+
+
+<div id="printheader"><h1 class="p_Heading1" style="page-break-after: avoid;"><span class="f_Heading1">Сортировка задач</span></h1>
+</div>
+<div id="idheader">
+<div id="idheaderbg">
+<table style="width:100%;border:none;margin:0px;" cellspacing="0" cellpadding="0"> 
+  <tr>
+    <td class="topichead" style="text-align:left; vertical-align:bottom">
+      <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="index.html?sorting.html" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+      <p class="crumbs"><b>Путь:</b>&nbsp;
+      
+      <a href="tasks.html">Раздел &quot;Задачи&quot;</a>&nbsp;&gt;</p>
+   
+      <h1 class="p_Heading1" style="page-break-after: avoid;"><span class="f_Heading1">Сортировка задач</span></h1>
+
+    </td>
+    <td class="topichead" id="idnav">
+      
+      <a href="favorite_tasks.html" title="Предыдущая статья"><span class="hmbtnprev"></span></a>
+      <a href="tasks.html" title="&nbsp;В начало"><span class="hmbtntop"></span></a>
+      <a href="profile.html" title="Следующая статья"><span class="hmbtnnext"></span></a>
+      
+    </td>
+  </tr>  
+</table>
+</div>
+</div>  
+
+<div id="idcontent"><div id="innerdiv">
+<!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser --> 
+<!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+
+<!--ZOOMRESTART-->
+<p class="p_BodyText"><span class="f_BodyText" style="background-color: #ff0000;">Данный раздел находится в разработке</span></p>
+<p class="p_BodyText"><span class="f_BodyText">Сортировка позволяет упорядочить списки по одному из параметров: </span><span class="f_BodyText" style="background-color: #ffffff;">названию</span><span class="f_BodyText">, дате, автору, важности, принадлежности к категории &quot;Избранное&quot; и др. </span></p>
+<p class="p_BodyText"><span class="f_BodyText">Предусмотрен прямой (↓) и обратный (↑) порядок сортировки.</span><span class="f_BodyText" style="background-color: #ffffff;">&nbsp;При наведении курсора мыши на заголовок столбца отображается текущее направление сортировки (↑ или ↓), а во всплывающей подсказке содержится информация об обратном порядке сортировки, который будет применён после щёлчка по заголовку.</span></p>
+<p class="p_BodyText"><span class="f_BodyText" style="background-color: #ffff00;">Сортировка задач доступна в представлении&nbsp;</span><span class="f_BodyText" style="font-weight: bold; background-color: #ffff00;">Линейный список</span><span class="f_BodyText" style="background-color: #ffff00;">&nbsp;</span><img alt="Linear_List" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="linear_list.svg"/><span class="f_BodyText"> и только по одному столбцу. Например, по автору или важности. По умолчанию задачи сортируются по дате старта: от новых к старым.</span></p>
+<h3 class="p_Heading3" style="page-break-after: avoid;"><span class="f_Heading3">Порядок сортировки задач</span></h3>
+<p class="p_BodyText">Чтобы отсортировать задачи<span class="f_ImageCaption" style="font-style: normal;">, в списке задач нажмите ЛКМ в заголовке столбца и задайте необходимый порядок следования:</span></p>
+<div style="text-align: justify; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 3px 0 9px 10px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: center; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px; font-weight: bold;">Параметр сортировки</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: center; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px; font-weight: bold;">Направление сортировки</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:15px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Задача ↓ </span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:15px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Сортировать задачи по названию процесса/поручению в алфавитном порядке от А → Я, далее A → Z*.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:15px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Задача ↑</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:15px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Сортировать задачи по названию процесса/поручению от Z → A*, далее Я → А.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Срок исполнения ↓ </span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Новейший → дальний → без срока. </span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Срок исполнения ↑</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Без срока → дальний → новейший.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Отправитель ↓ </span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Сортировать задачи по фамилии пользователя** в алфавитном порядке от А → Я.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Отправитель ↑</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Cортировать задачи по фамилии отправителя в алфавитном порядке от Я → А.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Дата старта ↓</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Новые → старые (по умолчанию используется данный вид сортировки).</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Дата старта ↑</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Старые → новые.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Важность ↓</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">В списке </span><span style="font-size: 13px; font-weight: bold;">Делаю</span><span style="font-size: 13px;">: &quot;Важно!&quot; → &quot;Важно мне&quot; → без меток.</span></p>
+<p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">В списке </span><span style="font-size: 13px; font-weight: bold;">Поручил</span><span style="font-size: 13px;">, </span><span style="font-size: 13px; font-weight: bold;">Контролирую</span><span style="font-size: 13px;">: &quot;Важно!&quot; → без меток.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Важность ↑</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Без меток → &quot;Важно!&quot; → &quot;Важно мне&quot;.</span></p>
+<p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">В списке </span><span style="font-size: 13px; font-weight: bold;">Поручил</span><span style="font-size: 13px;">, </span><span style="font-size: 13px; font-weight: bold;">Контролирую</span><span style="font-size: 13px;">: без меток → &quot;Важно!&quot;.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:49px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Выполнено ↓</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:49px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px; color: #ff0000;">Счётчик 0/0 → 0/9 (Яна в прото: сначала данные мной поручения / подконтрольные поручения, требующие внимания (имеются задачи &quot;утверждение&quot;)- поручения не требующие внимания(нет задач на проверку).</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:49px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Выполнено ↑</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:49px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px; color: #ff0000;">Счётчик 0/9 → 0/0 (Яна в прото: сначала данные мной поручения/ подконтрольные поручения, требующие внимания (имеются задачи &quot;утверждение&quot;)- поручения не требующие внимания(нет задач на проверку).</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Автор процесса/поручения ↓</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Сортировать задачи по фамилии автора в алфавитном порядке от А → Я.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Автор процесса/поручения ↑</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Сортировать задачи по фамилии автора в алфавитном порядке от Я → А.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Избранное ↓</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Избранные → неизбранные.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Избранное ↑</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#99CCFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Неизбранные → избранные.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Статус ↓</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px; color: #ff0000;">Назначенные мне, но ещё не принятые задачи → назначенные мне и принятые задачи.</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:179px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px;">Статус ↑</span></p>
+</td>
+<td style="vertical-align:top; width:701px; height:16px; background-color:#FFFFFF; padding:0; border:none"><p style="text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 13px; color: #ff0000;">Назначенные мне и принятые задачи → назначенные мне, но ещё не принятые задачи.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">* если в списке есть названия процесса/поручения на английском языке.</p>
+<p class="p_Normal">** Пользователь: отправитель, постановщик поручения, автор поручения, контролёр, автор.</p>
+
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript">
+
+
+
+  $(document).ready(function(){
+    $(window).bind('resize', function() {
+      var y = $('#idheader').height(); 
+      $('#idcontent').css('margin-top', y);
+      var par = window.parent;
+      if ($( par ).width() <= $( window ).width()+20) {
+        $('#idheader').css('position', 'relative');
+        $('#idcontent').css('margin-top', 0);
+        $('#idbacktotop').css('display', 'block');
+        $('.hmanchor').css('margin-top', -20);
+	$('.hmanchor').css('padding-top', 20);
+      }
+      else {
+        $('#idheader').css('position', 'fixed');
+        $('#idcontent').css('margin-top', $('#idheader').height());
+        $('#idbacktotop').css('display', 'none');
+        $('.hmanchor').css('margin-top', -y-20);
+	$('.hmanchor').css('padding-top', y+20);
+      }
+    });
+    
+    $(window).resize(); //trigger event for initially small displays
+  });
+
+if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) { $('.sync-toc').show();$('p.crumbs').hide();}
+
+</script>
+</body>
+</html>

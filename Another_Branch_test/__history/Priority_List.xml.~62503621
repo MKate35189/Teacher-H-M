@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Needs Review" lasteditedby="nechaeva_a_l" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Список по приоритету</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Список по приоритету</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:left;"><image src="Eisenhower.svg" scale="100.00%" styleclass="Heading3"></image><text styleclass="Heading3" translate="true"> Раздел &quot;Задачи&quot;, отображение в виде списка по приоритету</text></para>
+    <para styleclass="Normal" style="text-align:left;"><image src="Tasks_View.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Arial; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Открыть стартовую страницу системы: раздел </text><text styleclass="List" style="font-weight:bold;" translate="true">Задачи</text><text styleclass="List" translate="true"> → </text><text styleclass="List" style="font-weight:bold;" translate="true">Делаю</text><text styleclass="List" translate="true">, линейный список.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Разделы СЭД.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Пользовательские настройки.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Создать поручение или запустить бизнес-процесс.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Область фильтрации задач.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Способ отображения задач.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Меню задач.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true"> Список задач.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true"> Настроить меню задач.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true"> Открыть форму обратной связи.</text></li>
+    </list>
+  </body>
+</topic>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Nechaeva_A_L" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Needs Review">
+  <title translate="true">Сортировка документов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Сортировка документов</text></para>
+    </header>
+    <para styleclass="Body Text"><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">Сортировка позволяет упорядочить документы по одному из параметров: названию, дате, фамилии владельца. По умолчанию документы отсортированы по дате создания от новых к старым. Параметр и направление сортировки указывается с помощью стрелки вида ↑ или ↓ справа от названия столбца, по которому отсортированы объекты. </text></para>
+    <para styleclass="Heading3"><text styleclass="Heading3" translate="true">Порядок сортировки</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">Предусмотрена сортировка по возрастанию и убыванию для каждого из параметров: </text></para>
+    <para styleclass="Normal"><table rowcount="7" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:169px; height:19px; background-color:#99ccff;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">Параметр и направление сортировки</text></para>
+        </td>
+        <td style="vertical-align:top; width:339px; height:19px; background-color:#99ccff;">
+          <para styleclass style="text-align:center; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">Описание</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:169px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">Имя ↑</text></para>
+        </td>
+        <td style="vertical-align:top; width:339px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">Сортировать объекты по названию в следующем порядке: сначала папки, затем документы в направлении 0 → 9, A → Z, А → Я.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:169px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-size:10pt;" translate="true">Имя </text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">↓</text></para>
+        </td>
+        <td style="vertical-align:top; width:339px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">Сортировать объекты по названию в следующем порядке: сначала папки, затем документы в направлении Я → А, Z → A, 9 → 0.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:169px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-size:10pt;" translate="true">Владелец </text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">↑</text></para>
+        </td>
+        <td style="vertical-align:top; width:339px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">Сортировать объекты по фамилии владельца в следующем порядке: сначала папки, затем документы в направлении А → Я.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:169px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-size:10pt;" translate="true">Владелец </text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">↓</text></para>
+        </td>
+        <td style="vertical-align:top; width:339px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">Сортировать объекты по фамилии владельца в следующем порядке: сначала папки, затем документы в направлении Я → А.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:169px; height:8px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-size:10pt;" translate="true">Дата создания </text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">↑</text></para>
+        </td>
+        <td style="vertical-align:top; width:339px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">Сортировать объекты по дате создания в следующем порядке: сначала папки, затем документы от старых к новым.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:169px; height:8px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-size:10pt;" translate="true">Дата создания </text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">↓</text></para>
+        </td>
+        <td style="vertical-align:top; width:339px; height:16px;">
+          <para styleclass style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">Сортировать объекты по дате создания  в следующем порядке: сначала папки, затем документы от новых к старым.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Body Text"><image src="info-16px.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Body Text" translate="true">При переключении между разделами </text><text styleclass="Body Text" style="background-color:#ffffff;" translate="true">устанавливается порядок сортировки по умолчанию, то есть для документов по дате создания от новых к старым.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="morozova_e_s" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Избранное</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Избранное</text></para>
+    </header>
+    <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Избранное</text><text styleclass="Body Text" translate="true"> – документы и папки, которые пользователь добавил в категорию избранных.</text></para>
+    <para styleclass="Heading2"><text styleclass="Heading2" translate="true">&quot;Избранное&quot;. Основные правила</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="§" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Добавление/удаление в избранное выполняется с помощью значков </text><image src="Favorite_gray.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">/</text><image src="Favorite_Yellow.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">. При выполнении действия значок меняется на противоположный:</text></li>
+    </list>
+    <para styleclass="List"><tab/><image src="Favorite_gray.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true"> → </text><image src="Favorite_Yellow.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true"> – при добавлении в избранное; </text></para>
+    <para styleclass="List"><tab/><image src="Favorite_Yellow.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true"> → </text><image src="Favorite_gray.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true"> – при удалении из избранного.</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="§" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="List"><text styleclass="List" translate="true">Для добавления или удаления объекта в избранное достаточно </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Access_Rights" styleclass="List" translate="true">права доступа</link><text styleclass="List" translate="true"> &quot;Просмотр&quot;.</text></li>
+      <li styleclass="List"><text styleclass="List" translate="true">Действия </text><image src="Favorite_gray.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true">/</text><image src="Favorite_Yellow.svg" scale="100.00%" styleclass="List"></image><text styleclass="List" translate="true"> доступны из списка документов и из </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Doc_Card" styleclass="List" translate="true">карточки документа</link><text styleclass="List" translate="true">.</text></li>
+    </list>
+    <para styleclass="List"></para>
+    <para styleclass="List"></para>
+  </body>
+</topic>
